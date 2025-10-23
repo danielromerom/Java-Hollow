@@ -6,12 +6,12 @@ public class LiquidContainer : MonoBehaviour
     public LiquidType liquidType = LiquidType.Empty;
     [Range(0, 1)]
     public float liquidAmount = 0f; // 0 = empty, 1 = full
-    public float maxCapacity = 1f;  // Max normalized capacity (set to 1 for simplicity)
+    public float maxCapacity = 1f;  // Normalized for simplicity
 
     [Header("Visuals")]
-    public GameObject liquidVisual; // Assign a mesh/child object that represents liquid
+    public GameObject liquidVisual;
     [Tooltip("Total height in local units the liquid can fill to (Y axis scale)")]
-    public float liquidFillHeight = 1f; // Edit per cup prefab!
+    public float liquidFillHeight = 1f; // Set per cup prefab/instance
 
     public void AddLiquid(float amount, LiquidType type)
     {
@@ -21,7 +21,7 @@ public class LiquidContainer : MonoBehaviour
             liquidAmount = Mathf.Clamp(liquidAmount + amount, 0f, maxCapacity);
             UpdateLiquidVisual();
         }
-        // (Optional) If you want to mix types, handle it here
+        // (Optional) For mixing types, add logic here
     }
 
     public void RemoveLiquid(float amount)
@@ -38,49 +38,24 @@ public class LiquidContainer : MonoBehaviour
     {
         if (liquidVisual != null)
         {
+            // Show or hide the liquid mesh based on fill
             liquidVisual.SetActive(liquidAmount > 0f);
 
+            // Scale the Y dimension for fill visualization – change only scale
             var scale = liquidVisual.transform.localScale;
             scale.y = Mathf.Lerp(0.05f, liquidFillHeight, liquidAmount);
             liquidVisual.transform.localScale = scale;
-
-            var rend = liquidVisual.GetComponent<Renderer>();
-            if (rend != null)
-            {
-#if UNITY_EDITOR
-                // Use sharedMaterial in edit/OnValidate to avoid material leaks
-                rend.sharedMaterial.color = GetLiquidColor(liquidType);
-#else
-            // At runtime (play mode), still use material for instance
-            rend.material.color = GetLiquidColor(liquidType);
-#endif
-            }
-        }
-    }
-
-
-    private Color GetLiquidColor(LiquidType type)
-    {
-        switch (type)
-        {
-            case LiquidType.Espresso: return new Color(0.3f, 0.15f, 0.09f); // dark brown
-            case LiquidType.Water: return Color.clear;
-            case LiquidType.Milk: return Color.white;
-            case LiquidType.SteamedMilk: return new Color(1f, 0.97f, 0.85f); // creamy
-            default: return Color.clear;
         }
     }
 
 #if UNITY_EDITOR
-    // This updates the visuals in Edit mode as soon as you change inspector values
+    // Updates mesh immediately in the Editor when you change slider/type
     void OnValidate()
     {
         UpdateLiquidVisual();
     }
 #endif
 }
-
-
 
 public enum LiquidType
 {

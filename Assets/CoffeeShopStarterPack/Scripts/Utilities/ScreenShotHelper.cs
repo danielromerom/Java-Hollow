@@ -6,7 +6,6 @@
 //
 // Copyright (c) 2019 PuzzledWizard
 //
-// Updated for Unity 6.2 URP
 // ******------------------------------------------------------******
 
 using System.Collections;
@@ -88,7 +87,7 @@ public class ScreenShotHelper : MonoBehaviour
 
         //If we want to show a preview, we do it here
         if (testImage != null)
-            testImage.texture = lastScreenshot;
+        testImage.texture = lastScreenshot;
 
         // Save to path if needed
         byte[] bytes;
@@ -118,7 +117,7 @@ public class ScreenShotHelper : MonoBehaviour
         var boundsMagnitude = objBounds.magnitude;
         var radius = 1f;
         var distance = (boundsMagnitude / (Mathf.Tan(0.5f * screenShotCam.fieldOfView * Mathf.Deg2Rad)) * radius);
-
+        
         var maxZoomIn = distance * 5f;
         var maxZoomOut = distance * 10f;
 
