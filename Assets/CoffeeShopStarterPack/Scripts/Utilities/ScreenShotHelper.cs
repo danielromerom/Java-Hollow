@@ -35,7 +35,7 @@ public class ScreenShotHelper : MonoBehaviour
         GameObject newObj = new GameObject();
         Camera screenShotCam = newObj.AddComponent<Camera>();
 
-        // Enable post-processing for Unity 6.2 URP
+        // Enable post-processing for Unity 6.2 URP if you have a global Volume in your scene
         var cameraData = screenShotCam.GetUniversalAdditionalCameraData();
         cameraData.renderPostProcessing = true;
 
@@ -55,7 +55,6 @@ public class ScreenShotHelper : MonoBehaviour
 
         if (isMultipleObject)
         {
-
             for (int i = 0; i < transform.childCount; i++)
             {
                 if (i > 0)
@@ -94,26 +93,21 @@ public class ScreenShotHelper : MonoBehaviour
         // Save to path if needed
         byte[] bytes;
         bytes = virtualPhoto.EncodeToPNG();
-        //in case user didn't set a directory for screenshots use the default path.
-        //We dont use the UI folder because we don't want to override the initial screenshots, change it if you want to force this.
 
         var dir = "Assets/CoffeeShopStarterPack/Test/ScreenShots/";
         if (!string.IsNullOrEmpty(ScreenShotPath))
             dir = ScreenShotPath;
 
-        //IO operations can result with unexpected exceptions. we check it here.
         try
         {
-            //Create directory if it doesn't exist;
             Directory.CreateDirectory(dir);
             string fPath = dir + currentGameObject.name + ".png";
             System.IO.File.WriteAllBytes(fPath, bytes);
         }
         catch (System.Exception e)
         {
-            Debug.LogError("Something wrong happened" + e.Message);
+            Debug.LogError("Something wrong happened: " + e.Message);
         }
-
     }
 
     public Texture2D PositionCamAndGetScreenTexture(Camera screenShotCam, int sqr = 50)
@@ -154,7 +148,6 @@ public class ScreenShotHelper : MonoBehaviour
         RenderTexture.active = null;
         screenShotCam.targetTexture = null;
 
-        //We destroy the temporary render.
         DestroyImmediate(tempRT);
 
         return virtualPhoto;
