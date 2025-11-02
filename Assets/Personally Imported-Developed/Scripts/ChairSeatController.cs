@@ -19,28 +19,27 @@ public class ChairSeatController : MonoBehaviour
     [Header("Stand Up Settings")]
     [SerializeField] private InputActionProperty standUpButton;
     [SerializeField] private bool showStandUpPrompt = true;
-    [SerializeField] private GameObject standUpUI;
+    [SerializeField] private GameObject standUpUI; // Your affordance callout
 
     private bool isSeated = false;
     private TeleportationAnchor teleportAnchor;
+    private Transform mainCamera;
 
     void Start()
     {
         teleportAnchor = GetComponent<TeleportationAnchor>();
+        mainCamera = Camera.main.transform;
 
         if (teleportAnchor != null)
         {
-            // Use selectEntered to detect when player clicks the chair
             teleportAnchor.selectEntered.AddListener(OnChairSelected);
         }
 
-        // Enable the stand up button action
         if (standUpButton.action != null)
         {
             standUpButton.action.Enable();
         }
 
-        // Hide stand up UI initially
         if (standUpUI != null)
         {
             standUpUI.SetActive(false);
@@ -51,7 +50,6 @@ public class ChairSeatController : MonoBehaviour
     {
         if (isSeated && standUpButton.action != null)
         {
-            // Check if stand up button is pressed
             if (standUpButton.action.WasPressedThisFrame())
             {
                 StandUp();
@@ -61,13 +59,11 @@ public class ChairSeatController : MonoBehaviour
 
     private void OnChairSelected(SelectEnterEventArgs args)
     {
-        // Don't disable locomotion yet - let the teleport happen first
         StartCoroutine(SitDownAfterTeleport());
     }
 
     private System.Collections.IEnumerator SitDownAfterTeleport()
     {
-        // Wait for the teleportation to complete (need to wait a bit)
         yield return new WaitForSeconds(0.2f);
         SitDown();
     }
@@ -78,7 +74,7 @@ public class ChairSeatController : MonoBehaviour
 
         isSeated = true;
 
-        // NOW disable all locomotion (after teleport completed)
+        // Disable all locomotion
         if (teleportationProvider != null)
             teleportationProvider.enabled = false;
 
@@ -91,9 +87,19 @@ public class ChairSeatController : MonoBehaviour
         if (continuousTurnProvider != null)
             continuousTurnProvider.enabled = false;
 
-        // Show stand up prompt
+        // Position and show the stand up prompt at player's camera location
         if (standUpUI != null)
         {
+            // Position in front of the camera
+            Vector3 spawnPosition = mainCamera.position + mainCamera.forward * 1.5f;
+            spawnPosition.y = mainCamera.position.y - 0.3f; // Slightly below eye level
+
+            standUpUI.transform.position = spawnPosition;
+
+            // Make it face the camera
+            standUpUI.transform.LookAt(mainCamera);
+            standUpUI.transform.Rotate(0, 180, 0); // Flip to face player
+
             standUpUI.SetActive(true);
         }
 
