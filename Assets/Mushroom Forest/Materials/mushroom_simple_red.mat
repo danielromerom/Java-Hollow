@@ -25,9 +25,10 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _EMISSION
   - _NORMALMAP
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -140,7 +141,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
     - _Color: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.3428823, g: 0.10896056, b: 0.09941315, a: 1}
     - _RimColor: {r: 0.14901961, g: 0.04483041, b: 0, a: 0}
     - _SpecColor: {r: 0.17254902, g: 0.17254902, b: 0.17254902, a: 1}
   m_BuildTextureStacks: []
