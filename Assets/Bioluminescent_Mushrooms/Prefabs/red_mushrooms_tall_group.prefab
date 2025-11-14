@@ -1026,7 +1026,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: b775037790334bb44a37be6228e33be4, type: 3}
       propertyPath: m_Name
-      value: red_mushrooms_tall
+      value: red_mushrooms_tall_group
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: b775037790334bb44a37be6228e33be4, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: b775037790334bb44a37be6228e33be4, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: b775037790334bb44a37be6228e33be4, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b775037790334bb44a37be6228e33be4, type: 3}
       propertyPath: m_LocalPosition.x

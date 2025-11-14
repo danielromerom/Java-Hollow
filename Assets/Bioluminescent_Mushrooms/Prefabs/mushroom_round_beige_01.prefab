@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 4848525427606065323}
   m_Layer: 0
   m_Name: mushroom_round_beige_01
-  m_TagString: Untagged
+  m_TagString: Mushroom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
