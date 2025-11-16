@@ -55,6 +55,6 @@ public class FootstepAudio : MonoBehaviour
 
         // Play sound at your feet level
         Vector3 footPos = cameraRig.position + Vector3.down * 1.2f;
-        AudioSource.PlayClipAtPoint(clip, footPos, 1f);
+        AudioSource.PlayClipAtPoint(clip, footPos, 0.2f);
     }
 }
