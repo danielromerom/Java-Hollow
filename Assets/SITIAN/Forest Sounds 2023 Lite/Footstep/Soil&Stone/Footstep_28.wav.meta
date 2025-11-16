@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: b1c4ee15bbba23b4cbe40ea454a1f9ad
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 230097
+  packageName: Forest Sounds 2023 Lite
+  packageVersion: 1.0.1
+  assetPath: Assets/SITIAN/Forest Sounds 2023 Lite/Footstep/Soil&Stone/Footstep_28.wav
+  uploadId: 615108
