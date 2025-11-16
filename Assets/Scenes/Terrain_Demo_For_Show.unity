@@ -8640,6 +8640,7 @@ GameObject:
   - component: {fileID: 370295287}
   - component: {fileID: 370295286}
   - component: {fileID: 370295288}
+  - component: {fileID: 370295289}
   m_Layer: 0
   m_Name: Directional light
   m_TagString: Untagged
@@ -8756,6 +8757,27 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &370295289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370295285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774a8ab74b221044b9f66e2ecc9a2a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DayAndNight
+  daySkybox: {fileID: 2100000, guid: 5c378e2ef25ab334a88daa47d032b24b, type: 2}
+  nightSkybox: {fileID: 2100000, guid: c1be88d1796a54b4b80fd6fd556035b6, type: 2}
+  sunLight: {fileID: 370295286}
+  rotationSpeed: 5
+  dayAmbientIntensity: 1
+  nightAmbientIntensity: 0.05
+  dayReflectionIntensity: 1
+  nightReflectionIntensity: 0.1
+  mushroomTag: Mushroom
 --- !u!1001 &385853304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37702,6 +37724,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1030972152, guid: abc00000000009026292332411352372, type: 3}
   m_PrefabInstance: {fileID: 1458839872}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1461015969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461015970}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1461015970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461015969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.24411, y: 0, z: 12.2847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1463251278 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4316118528100242016, guid: 77583c82aacf9a945967713f6a316bc4, type: 3}
@@ -43704,3 +43757,4 @@ SceneRoots:
   - {fileID: 1128962665}
   - {fileID: 2940513}
   - {fileID: 319961438}
+  - {fileID: 1461015970}
