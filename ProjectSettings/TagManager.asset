@@ -7,6 +7,8 @@ TagManager:
   - Anchor
   - Fluid
   - EspressoCup
+  - Mushroom
+  - Campfire
   layers:
   - Default
   - TransparentFX
