@@ -5,15 +5,22 @@ public class RandomBirdSectionPlayer : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip birdClip;   // your 30s ambience
+    public AudioClip owlClip;    // NEW: Owl audio for night
+
     public float minPlayTime = 2f;   // shortest snippet
     public float maxPlayTime = 8f;   // longest snippet
     public float minDelay = 6f;      // min wait between plays
     public float maxDelay = 15f;
 
+    private DayAndNight dayAndNight;
+
     void Start()
     {
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
+
+        dayAndNight = FindObjectOfType<DayAndNight>();
+
         StartCoroutine(PlayRandomSections());
     }
 
@@ -24,20 +31,30 @@ public class RandomBirdSectionPlayer : MonoBehaviour
             // Wait random delay before next snippet
             yield return new WaitForSeconds(Random.Range(minDelay, maxDelay));
 
-            float clipLength = birdClip.length;
-            float playDuration = Random.Range(minPlayTime, maxPlayTime);
+            // Determine which clip to play
+            AudioClip currentClip = birdClip;
+            if (dayAndNight != null && dayAndNight.IsNight && owlClip != null)
+            {
+                currentClip = owlClip;
+            }
 
-            // make sure the start point + duration never exceeds total length
-            float maxStartTime = Mathf.Max(0f, clipLength - playDuration);
-            float startTime = Random.Range(0f, maxStartTime);
+            if (currentClip != null)
+            {
+                float clipLength = currentClip.length;
+                float playDuration = Random.Range(minPlayTime, maxPlayTime);
 
-            audioSource.clip = birdClip;
-            audioSource.time = startTime;
-            audioSource.pitch = Random.Range(0.95f, 1.05f);
-            audioSource.Play();
+                // make sure the start point + duration never exceeds total length
+                float maxStartTime = Mathf.Max(0f, clipLength - playDuration);
+                float startTime = Random.Range(0f, maxStartTime);
 
-            yield return new WaitForSeconds(playDuration);
-            audioSource.Stop();
+                audioSource.clip = currentClip;
+                audioSource.time = startTime;
+                audioSource.pitch = Random.Range(0.95f, 1.05f);
+                audioSource.Play();
+
+                yield return new WaitForSeconds(playDuration);
+                audioSource.Stop();
+            }
         }
     }
 }

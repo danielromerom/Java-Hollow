@@ -6,6 +6,7 @@ public class FootstepAudio : MonoBehaviour
     public AudioClip[] footstepClips;
     public float stepInterval = 0.5f;
     public float moveThreshold = 0.01f; // smaller value so small movements count too
+    [Range(1f, 10f)] public float volumeMultiplier = 2.5f; // Boost volume
 
     private Transform cameraRig;
     private Vector3 lastPosition;
@@ -53,8 +54,7 @@ public class FootstepAudio : MonoBehaviour
         AudioClip clip = footstepClips[Random.Range(0, footstepClips.Length)];
         audioSource.pitch = Random.Range(0.95f, 1.05f);
 
-        // Play sound at your feet level
-        Vector3 footPos = cameraRig.position + Vector3.down * 1.2f;
-        AudioSource.PlayClipAtPoint(clip, footPos, 0.2f);
+        // Use PlayOneShot so it uses the volume/spatial settings of the AudioSource component
+        audioSource.PlayOneShot(clip, volumeMultiplier);
     }
 }

@@ -103,6 +103,9 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
         {
             base.Awake();
 
+            // Double the movement speed
+            moveSpeed *= 2f;
+
             m_CombinedTransform = new GameObject("[Dynamic Move Provider] Combined Forward Source").transform;
             m_CombinedTransform.SetParent(transform, false);
             m_CombinedTransform.localPosition = Vector3.zero;

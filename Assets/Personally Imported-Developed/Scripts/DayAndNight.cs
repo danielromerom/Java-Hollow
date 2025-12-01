@@ -11,6 +11,8 @@ public class DayAndNight : MonoBehaviour
     public Light sunLight;
     public float rotationSpeed = 3f;
     public Gradient sunsetColor;   // NEW — controls warm sunset tint
+    public Color moonColor = new Color(0.1f, 0.1f, 0.3f); // Blueish moonlight
+    public float moonIntensity = 0.2f;
 
     [Header("Ambient Lighting")]
     public float dayAmbientIntensity = 1.0f;
@@ -25,9 +27,15 @@ public class DayAndNight : MonoBehaviour
     public List<Light> glowLights = new List<Light>();
     public float glowNightIntensity = 1.5f;
 
+    [Header("Audio Ambience")]
+    public AudioSource nightAmbience; // Drag your new "Bugs/Crickets" AudioSource here
+
     private Color[] baseEmissionColors;
 
     private float skyboxBlend = 0f;   // 0 = day, 1 = night
+
+    // Public property to let other scripts know if it's night
+    public bool IsNight => skyboxBlend > 0.5f;
 
     void Start()
     {
@@ -46,6 +54,14 @@ public class DayAndNight : MonoBehaviour
         // Force full control of ambient light
         RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Flat;
         DynamicGI.UpdateEnvironment();
+
+        // Ensure night audio is playing but start at volume 0 if it's day
+        if (nightAmbience != null)
+        {
+            if (!nightAmbience.isPlaying) nightAmbience.Play();
+            nightAmbience.loop = true;
+            nightAmbience.volume = 0f;
+        }
     }
 
     void Update()
@@ -78,14 +94,37 @@ public class DayAndNight : MonoBehaviour
         else if (angle < 20f) skyboxBlend = Mathf.InverseLerp(20f, -20f, angle);
         else skyboxBlend = 0f; // full day
 
+        // --- AUDIO BLENDING ---
+        // Fade the bugs in as it gets darker (0 volume at day, 1 volume at night)
+        if (nightAmbience != null)
+        {
+            nightAmbience.volume = skyboxBlend;
+        }
+
         // SKYBOX BLEND
-        RenderSettings.skybox.Lerp(daySkybox, nightSkybox, skyboxBlend);
+        // RenderSettings.skybox.Lerp(daySkybox, nightSkybox, skyboxBlend); // Lerp can cause black screen if shaders differ
+        if (skyboxBlend > 0.5f && RenderSettings.skybox != nightSkybox)
+        {
+            RenderSettings.skybox = nightSkybox;
+        }
+        else if (skyboxBlend <= 0.5f && RenderSettings.skybox != daySkybox)
+        {
+            RenderSettings.skybox = daySkybox;
+        }
 
-        // SUN INTENSITY
-        sunLight.intensity = Mathf.Lerp(1f, 0f, skyboxBlend);
-
-        // SUNSET TINT (warm colors)
-        sunLight.color = sunsetColor.Evaluate(1f - skyboxBlend);
+        // SUN INTENSITY & COLOR (Transition to Moon)
+        if (skyboxBlend < 0.5f)
+        {
+            // Day to Sunset
+            sunLight.intensity = Mathf.Lerp(1f, 0.5f, skyboxBlend * 2f);
+            sunLight.color = sunsetColor.Evaluate(skyboxBlend * 2f);
+        }
+        else
+        {
+            // Sunset to Night (Moon)
+            sunLight.intensity = Mathf.Lerp(0.5f, moonIntensity, (skyboxBlend - 0.5f) * 2f);
+            sunLight.color = Color.Lerp(sunsetColor.Evaluate(1f), moonColor, (skyboxBlend - 0.5f) * 2f);
+        }
 
         // AMBIENT LIGHTING
         float ambient =
