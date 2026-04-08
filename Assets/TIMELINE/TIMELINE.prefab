@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &133325040134763432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4999972696428136772}
+  - component: {fileID: 7279572901269580551}
+  m_Layer: 0
+  m_Name: TIMELINE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4999972696428136772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133325040134763432}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &7279572901269580551
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133325040134763432}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: d1006b5b2487a5849b63165b7c678c32, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -9125300178998761860, guid: d1006b5b2487a5849b63165b7c678c32, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1830613242774278186, guid: d1006b5b2487a5849b63165b7c678c32, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5441397659453141406, guid: d1006b5b2487a5849b63165b7c678c32, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5467760854386237360, guid: d1006b5b2487a5849b63165b7c678c32, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3425127914129955430, guid: d1006b5b2487a5849b63165b7c678c32, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References:
+    - 395fd47e59180ca48a11db648bba55c0: {fileID: 0}
+    - d5101ac2b9211f548819d7343bb3f90b: {fileID: 0}
+    - 049e84c826b28e94c8c29acb1e1b3420: {fileID: 0}
