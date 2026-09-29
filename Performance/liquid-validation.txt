@@ -1,0 +1,2 @@
+PASS: finite mixture, conservation, blend, sip, empty/key removal, capacity clamp, infinite transfer.
+PASS: 1000 warmed transfer/removal cycles allocated 0 managed bytes on the calling thread (liquidVisual=null; rendering not measured).

@@ -19,9 +19,16 @@ public class LiquidContainer : MonoBehaviour
     [Tooltip("Total height in local units the liquid can fill to (Y axis scale)")]
     public float liquidFillHeight = 1f;
 
+    // Snapshot keys before mutating the dictionary, reusing storage between pours.
+    // Separate buffers keep RemoveProportionalLiquid independent of PourTo.
+    private readonly List<LiquidType> removalKeys = new List<LiquidType>(6);
+    private readonly List<LiquidType> transferKeys = new List<LiquidType>(6);
+    private GameObject cachedLiquidVisual;
+    private Renderer cachedLiquidRenderer;
+
     public void AddLiquid(float amount, LiquidType type)
     {
-        Debug.Log($"Adding {amount} of {type} to {gameObject.name}");
+        LogLiquidAdded(amount, type);
 
         if (!liquidVolumes.ContainsKey(type))
             liquidVolumes[type] = 0f;
@@ -44,7 +51,9 @@ public class LiquidContainer : MonoBehaviour
         float totalVolume = GetTotalVolume();
         if (totalVolume == 0f) return;
 
-        foreach (var type in new List<LiquidType>(liquidVolumes.Keys))
+        removalKeys.Clear();
+        removalKeys.AddRange(liquidVolumes.Keys);
+        foreach (var type in removalKeys)
         {
             float toRemove = amount * (liquidVolumes[type] / totalVolume);
             liquidVolumes[type] -= toRemove;
@@ -58,7 +67,9 @@ public class LiquidContainer : MonoBehaviour
     {
         float totalVolume = GetTotalVolume();
         if (totalVolume == 0f) return;
-        foreach (var type in new List<LiquidType>(liquidVolumes.Keys))
+        transferKeys.Clear();
+        transferKeys.AddRange(liquidVolumes.Keys);
+        foreach (var type in transferKeys)
         {
             float chunk = transferAmount * (liquidVolumes[type] / totalVolume);
             RemoveLiquid(type, chunk);
@@ -85,7 +96,12 @@ public class LiquidContainer : MonoBehaviour
             scale.y = Mathf.Lerp(0.05f, liquidFillHeight, liquidAmount);
             liquidVisual.transform.localScale = scale;
 
-            var rend = liquidVisual.GetComponent<Renderer>();
+            if (cachedLiquidVisual != liquidVisual)
+            {
+                cachedLiquidVisual = liquidVisual;
+                cachedLiquidRenderer = liquidVisual.GetComponent<Renderer>();
+            }
+            var rend = cachedLiquidRenderer;
             if (rend != null)
             {
 #if UNITY_EDITOR
@@ -95,6 +111,12 @@ public class LiquidContainer : MonoBehaviour
 #endif
             }
         }
+    }
+
+    [System.Diagnostics.Conditional("JAVA_HOLLOW_VERBOSE_LIQUID_LOGS")]
+    private void LogLiquidAdded(float amount, LiquidType type)
+    {
+        Debug.Log($"Adding {amount} of {type} to {gameObject.name}");
     }
 
     public Color GetBlendedColor()

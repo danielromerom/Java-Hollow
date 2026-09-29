@@ -1,0 +1,23 @@
+Unity 6000.2.9f1 Windows x64 IL2CPP validation
+Result: Succeeded
+Build errors: 0
+Reported build bytes: 1826580981
+Executable: Builds/PerformanceValidation/JavaHollow.exe
+Detailed local log: Logs/PerformanceBuild.log
+Configuration: BuildOptions.None (non-development), existing project graphics/quality settings.
+
+PASS: Unity compiled Editor and player scripts, processed shaders, and built the Windows executable.
+PASS: Liquid behavior / warmed allocation regression checks (liquid-validation.txt).
+PASS: Candle smoke capacity comparison (particle-validation.txt).
+PASS: git diff --check.
+PASS: Scene text compared against HEAD after normalizing line endings differs ONLY in frameRate 5 -> -1.
+PASS: Candle prefab text compared against HEAD differs ONLY in smoke maxNumParticles 100000 -> 128.
+PASS: Unity's temporary XR asset moves and preloaded build settings restored; no unrelated tracked asset changes remain.
+
+Not performed: interactive player launch, headset visual/interaction acceptance, target CPU/GPU frame-time capture,
+rendered particle/trail image comparison, complete-frame allocation test, VRAM measurement, sustained FPS or thermal soak.
+The 60+ FPS objective remains unverified. A successful build and headless simulation are not HMD performance measurements.
+
+Baseline Editor import/audit log also reported a malformed existing Assets/COMICOMI.meta GUID warning.
+Codecoverage dependency emitted type-resolution diagnostics during build preprocessing; the build nevertheless succeeded.
+No imported vendor metadata/packages were rewritten to conceal those pre-existing issues.

@@ -53,14 +53,16 @@ public class CupPourer : MonoBehaviour
             return;
         }
 
-        Transform currentPourOrigin = GetLowestPourOrigin();
-        Vector3 pourDir = (Vector3.down + -transform.up * 0.2f).normalized;
-        Debug.DrawRay(currentPourOrigin.position, pourDir * 2f, Color.cyan);
-
         bool pouringThisFrame = false;
 
         if (Vector3.Angle(-transform.up, Vector3.down) > pourAngleThreshold)
         {
+            // Upright cups do not need an origin search or a stream direction.
+            Transform currentPourOrigin = GetLowestPourOrigin();
+            Vector3 pourDir = (Vector3.down + -transform.up * 0.2f).normalized;
+#if UNITY_EDITOR
+            Debug.DrawRay(currentPourOrigin.position, pourDir * 2f, Color.cyan);
+#endif
             RaycastHit hit;
             float maxDistance = 5f;
             LayerMask combinedMask = cupLayer | floorLayer;
@@ -90,7 +92,8 @@ public class CupPourer : MonoBehaviour
                     {
                         float availableVolume = liquidContainer.GetTotalVolume();
                         float targetSpace = targetCup.maxCapacity - targetCup.GetTotalVolume();
-                        float transfer = Mathf.Min(pourRate * Time.deltaTime, availableVolume, targetSpace);
+                        // Avoid the params float[] allocation of the three-value overload.
+                        float transfer = Mathf.Min(Mathf.Min(pourRate * Time.deltaTime, availableVolume), targetSpace);
                         liquidContainer.PourTo(targetCup, transfer);
                     }
                     else

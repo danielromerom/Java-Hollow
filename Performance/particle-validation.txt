@@ -1,0 +1,3 @@
+PASS: seed=1, 1800 steps at 1/60s, capacity 100000 vs 128, peak=61; counts, seeds, positions, lifetimes and start colors match.
+PASS: seed=12345, 1800 steps at 1/60s, capacity 100000 vs 128, peak=61; counts, seeds, positions, lifetimes and start colors match.
+PASS: seed=987654, 1800 steps at 1/60s, capacity 100000 vs 128, peak=61; counts, seeds, positions, lifetimes and start colors match.

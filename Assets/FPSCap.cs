@@ -1,9 +1,9 @@
 using UnityEngine;
 
-[ExecuteInEditMode]
 public class FPSCap : MonoBehaviour
 {
-    [SerializeField] private int frameRate = 30;
+    // The normal experience is uncapped. XR frame pacing belongs to the XR runtime.
+    [SerializeField] private int frameRate = -1;
 
     private void Start()
     {

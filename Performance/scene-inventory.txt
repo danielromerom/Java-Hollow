@@ -1,0 +1,922 @@
+Scene: Assets/Terrain_Demo_For_Show.unity
+Unity: 6000.2.9f1; quality: VR
+Editor inventory; NOT runtime visibility, draw calls, GPU time, or FPS. Includes inactive objects unless labelled active.
+Objects: 1565; active: 1361
+Missing scripts: 0
+Component Transform: 1505
+Component MeshRenderer: 648
+Component MeshFilter: 648
+Component Light: 191
+Component UniversalAdditionalLightData: 191
+Component MeshCollider: 186
+Component SpriteRenderer: 64
+Component RectTransform: 60
+Component ParticleSystem: 60
+Component ParticleSystemRenderer: 60
+Component BoxCollider: 46
+Component CanvasRenderer: 44
+Component Terrain: 42
+Component TerrainCollider: 42
+Component LODGroup: 41
+Component Image: 33
+Component ColorMaterialPropertyAffordanceReceiver: 26
+Component Animator: 24
+Component CameraFacing: 23
+Component LazyFollow: 16
+Component ContentSizeFitter: 16
+Component XRInteractorAffordanceStateProvider: 14
+Component MaterialPropertyBlockHelper: 14
+Component LineRenderer: 14
+Component Canvas: 12
+Component CanvasScaler: 12
+Component TextMeshProUGUI: 11
+Component Rigidbody: 11
+Component XRGrabInteractable: 11
+Component TrackedPoseDriver: 10
+Component Callout: 10
+Component CanvasGroup: 10
+Component SortingGroup: 9
+Component SkinnedMeshRenderer: 8
+Component HorizontalLayoutGroup: 8
+Component LayoutElement: 8
+Component BezierCurve: 8
+Component SimpleHapticFeedback: 6
+Component AudioSource: 6
+Component CupPourer: 6
+Component CupSipper: 6
+Component MarshmallowRoasting: 5
+Component XRInteractionGroup: 4
+Component XRPokeInteractor: 4
+Component NearFarInteractor: 4
+Component InteractionAttachController: 4
+Component SphereInteractionCaster: 4
+Component CurveInteractionCaster: 4
+Component CurveVisualController: 4
+Component ReleaseThresholdButtonReader: 4
+Component XRHandTrackingEvents: 4
+Component XRHandMeshController: 4
+Component XRHandSkeletonDriver: 4
+Component XRHandSkeletonPokeDisplacer: 4
+Component XRGeneralGrabTransformer: 4
+Component LiquidContainer: 4
+Component ApplyTerrainSettingsAll: 3
+Component XRTransformStabilizer: 3
+Component InputActionManager: 2
+Component ControllerInputActionManager: 2
+Component HapticImpulsePlayer: 2
+Component XRRayInteractor: 2
+Component XRInteractorLineVisual: 2
+Component ControllerAnimator: 2
+Component CalloutGazeController: 2
+Component RotationConstraint: 2
+Component MetaSystemGestureDetector: 2
+Component PokeGestureDetector: 2
+Component PinchPointFollow: 2
+Component HideObjectWhenInteractorBlocked: 2
+Component BlendShapeAffordanceReceiver: 2
+Component LocalPositionOffsetAffordanceReceiver: 2
+Component UniformTransformScaleAffordanceReceiver: 2
+Component FloatMaterialPropertyAffordanceReceiver: 2
+Component GrabMoveProvider: 2
+Component GraphicRaycaster: 2
+Component TrackedDeviceGraphicRaycaster: 2
+Component EspressoAutoPour: 2
+Component XRSocketInteractor: 2
+Component XRGravityRestore: 2
+Component InfiniteLiquidContainer: 2
+Component TeleportationAnchor: 2
+Component ChairSeatController: 2
+Component DayAndNight: 1
+Component XROrigin: 1
+Component CharacterController: 1
+Component XRInputModalityManager: 1
+Component XRGazeAssistance: 1
+Component Camera: 1
+Component AudioListener: 1
+Component UniversalAdditionalCameraData: 1
+Component FPSCap: 1
+Component TunnelingVignetteController: 1
+Component XRGazeInteractor: 1
+Component GazeInputManager: 1
+Component HandVisualizer: 1
+Component LocomotionMediator: 1
+Component XRBodyTransformer: 1
+Component SnapTurnProvider: 1
+Component ContinuousTurnProvider: 1
+Component DynamicMoveProvider: 1
+Component TwoHandedGrabMoveProvider: 1
+Component TeleportationProvider: 1
+Component ClimbProvider: 1
+Component ClimbTeleportInteractor: 1
+Component ClimbTeleportDestinationIndicator: 1
+Component GravityProvider: 1
+Component JumpProvider: 1
+Component SignalReceiver: 1
+Component HandsOneEuroFilterPostProcessor: 1
+Component FootstepAudio: 1
+Component RandomBirdSectionPlayer: 1
+Component XRInteractionSimulator: 1
+Component SimulatedDeviceLifecycleManager: 1
+Component SimulatedHandExpressionManager: 1
+Component CapsuleCollider: 1
+Component PlayableDirector: 1
+Camera XR Origin Hands (XR Rig)/Camera Offset/Main Camera active=True target= stereo=Both near=0.01 far=1000 occlusion=True post=False stack=Base
+Light Directional light active=True type=Directional mode=Realtime shadows=Soft range=10 intensity=0
+Light IN SCENE ASSETS/CEILING CHAIN/ceiling chain/Latern3 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/CEILING CHAIN/ceiling chain (1)/Latern3 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/CEILING CHAIN/ceiling chain (2)/Latern3 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/CEILING CHAIN/ceiling chain (3)/Latern3 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/CEILING CHAIN/ceiling chain (4)/Latern3 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/CEILING CHAIN/ceiling chain (5)/Latern3 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/CEILING CHAIN/ceiling chain (6)/Latern3 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/TABLES/table/BoothsChairsTables_SM_Chair_6 (18)/Lantern1 (3)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (5)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_simple_blue_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_wavy_brown_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_wavy_green_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (4) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (4) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_round_beige_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_wavy_green_01 (1)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_simple_blue_01 (1)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_round_beige_01 (1)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_simple_blue_01 (2)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_simple_red_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_wavy_green_01 (2)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_spiral_brown_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_green_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_wavy_pink_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_02/Point Light (4) active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_simple_red_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_green_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_simple_blue_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (2) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (3) active=True type=Point mode=Realtime shadows=None range=10 intensity=0.5
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_spiral_brown_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_spiral_brown_01/Lantern1 (3)/red_flame_0/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_wavy_green_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_pink_01 (1)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_round_beige_01/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_bell_green_01 (1)/Point Light active=True type=Point mode=Realtime shadows=None range=10 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_01/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (1) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (2) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (3) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Light IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (4) active=True type=Point mode=Realtime shadows=None range=5 intensity=1
+Active enabled renderers: 770
+Batching-static renderers: 183
+Shadow-casting renderers: 653
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Chair.FBX / SM_Chair_LOD2: instances=50 verticesEach=866 indicesEach=2982 readable=False
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Chair.FBX / SM_Chair_LOD0: instances=24 verticesEach=1482 indicesEach=5970 readable=False
+Mesh Assets/CoffeeShopStarterPack/Models/PW_macaron_tower.fbx / macaron_tower: instances=2 verticesEach=12528 indicesEach=23772 readable=True
+Mesh Assets/ZNS3D/Mix_Furniture_Pack/Meshes/bookshelf.fbx / bookshelf: instances=7 verticesEach=3296 indicesEach=16176 readable=False
+Mesh Assets/Laterns and candles/Meshes/Latern1.fbx / Latern1: instances=16 verticesEach=793 indicesEach=3192 readable=True
+Mesh Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Log(Long).fbx / LOG(Long): instances=2 verticesEach=6088 indicesEach=17268 readable=False
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Table.FBX / SM_Table_LOD0: instances=13 verticesEach=904 indicesEach=3090 readable=False
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Chair.FBX / SM_Chair_LOD3: instances=24 verticesEach=466 indicesEach=1494 readable=False
+Mesh Assets/Mushroom Forest/Models/mushroom_tall.fbx / mushroom_tall_03: instances=14 verticesEach=696 indicesEach=2988 readable=True
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Table.FBX / SM_Table_LOD1: instances=13 verticesEach=709 indicesEach=2316 readable=False
+Mesh Assets/Laterns and candles/Meshes/Latern3.fbx / Latern3: instances=7 verticesEach=1060 indicesEach=4836 readable=True
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Table.FBX / SM_Table_LOD2: instances=13 verticesEach=484 indicesEach=1542 readable=False
+Mesh Assets/Mushroom Forest/Models/mushroom_tall.fbx / mushroom_tall_02: instances=14 verticesEach=412 indicesEach=1764 readable=True
+Mesh Assets/Personally Imported-Developed/Models/marshmallow.fbx / Cylinder: instances=10 verticesEach=576 indicesEach=1140 readable=False
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Booth.FBX / SM_Booth_LOD0: instances=4 verticesEach=1279 indicesEach=4920 readable=False
+Mesh Assets/CoffeeShopStarterPack/Models/PW_macaronbox.fbx / macaronbox: instances=2 verticesEach=2308 indicesEach=4080 readable=True
+Mesh Assets/Book Storefront- FREE/Model/bookStore(fbx).fbx / polySurface144: instances=1 verticesEach=4122 indicesEach=10212 readable=False
+Mesh Library/unity default resources / Sphere: instances=8 verticesEach=515 indicesEach=2304 readable=True
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Booth.FBX / SM_Booth_LOD1: instances=4 verticesEach=1025 indicesEach=3687 readable=False
+Mesh Assets/Book Storefront- FREE/Model/bookStore(fbx).fbx / pCube28: instances=1 verticesEach=4096 indicesEach=8064 readable=False
+Mesh Assets/Book Storefront- FREE/Model/bookStore(fbx).fbx / pCube138: instances=1 verticesEach=3840 indicesEach=7560 readable=False
+Mesh Assets/CoffeeShopStarterPack/Models/PW_espressomachine.fbx / metal: instances=2 verticesEach=1837 indicesEach=3672 readable=True
+Mesh Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/UniversalController.fbx / Controller_Base: instances=2 verticesEach=1692 indicesEach=7194 readable=False
+Mesh Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Meshes/SM_Booth.FBX / SM_Booth_LOD2: instances=4 verticesEach=780 indicesEach=2457 readable=False
+Mesh Assets/Laterns and candles/Meshes/Latern1.fbx / Hook: instances=16 verticesEach=189 indicesEach=960 readable=True
+Mesh Assets/CoffeeShopStarterPack/Models/PW_toast_cheese.fbx / sesame_bread: instances=3 verticesEach=918 indicesEach=1452 readable=True
+Mesh Assets/Mushroom Forest/Models/mushroom_pointy.fbx / mushroom_pointy_01: instances=5 verticesEach=549 indicesEach=1854 readable=True
+Mesh Assets/Laterns and candles/Meshes/Latern1.fbx / Cylinder.000: instances=16 verticesEach=170 indicesEach=750 readable=True
+Mesh Assets/Notice/Meshes/Board01.fbx / Board01: instances=2 verticesEach=1252 indicesEach=3804 readable=False
+Mesh Assets/CoffeeShopStarterPack/Models/PW_espressomachine.fbx / espressomachine: instances=2 verticesEach=1219 indicesEach=2562 readable=True
+Material Assets/CoffeeShopStarterPack/Materials/basic.mat refs=102 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Laterns and candles/Materials/lustre.mat refs=98 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Materials/M_BoothChairTableTrim02.mat refs=98 shader=Shader Graphs/S_PBR_OPAQUE_ORM_LeartesMasterMaterial queue=2225 instancing=True
+Material Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Materials/M_BoothChairTableTrim.mat refs=55 shader=Shader Graphs/S_PBR_OPAQUE_ORM_LeartesMasterMaterial queue=2225 instancing=True
+Material Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat refs=41 shader=Universal Render Pipeline/2D/Sprite-Unlit-Default queue=3000 instancing=False
+Material Assets/Laterns and candles/Materials/Latern1.mat refs=32 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_tall_red 1.mat refs=24 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Resources/unity_builtin_extra refs=23 shader=Sprites/Default queue=3000 instancing=False
+Material Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Controller_Grey.mat refs=16 shader=Universal Render Pipeline/Lit queue=2000 instancing=True
+Material Assets/Laterns and candles/Materials/Candle1.mat refs=16 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Materials/M_Glass.mat refs=16 shader=Shader Graphs/S_Glass queue=3000 instancing=True
+Material Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Materials/M_Props.mat refs=15 shader=Shader Graphs/S_PBR_OPAQUE_ORM_LeartesMasterMaterial queue=2225 instancing=True
+Material Assets/COMICOMI/VFX_FirelyFlare/Art/Materials/Flare_01 1.mat refs=13 shader=Mobile/Particles/Additive queue=3000 instancing=False
+Material Assets/Piloto Studio/Shaders/SimplyToon_Piloto/GradModels_Toony.mat refs=11 shader=Piloto Studio/Simply Toon queue=2000 instancing=False
+Material Assets/Piloto Studio/Materials/Shared/Flare_GlowdotPickbook_Add.mat refs=11 shader=Piloto Studio/UberFX queue=3000 instancing=False
+Material Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat refs=10 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Piloto Studio/Materials/Shared/Trail_WispyGeneric_Alpha.mat refs=10 shader=Piloto Studio/UberFX queue=3000 instancing=False
+Material Assets/Piloto Studio/Materials/Shared/Nokdef_Add_Soft.mat refs=10 shader=Piloto Studio/UberFX queue=3000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_tall_green.mat refs=9 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_tall_blue.mat refs=9 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/VRTemplateAssets/Materials/Controller/Blue.mat refs=8 shader=Unlit/Color queue=2000 instancing=False
+Material Assets/VRTemplateAssets/Materials/UI/BezierLink.mat refs=8 shader=UI/Unlit/Transparent queue=3001 instancing=False
+Material Assets/Laterns and candles/Materials/Lamp3_colormap.mat refs=7 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Laterns and candles/Materials/Candle3_colormap.mat refs=7 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/VRTemplateAssets/Materials/Environment/Glass.mat refs=7 shader=Universal Render Pipeline/Lit queue=3000 instancing=False
+Material Assets/ZNS3D/Mix_Furniture_Pack/Materials/Bookshelf_1.mat refs=7 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Materials/M_WallProps.mat refs=7 shader=Shader Graphs/S_PBR_OPAQUE_ORM_LeartesMasterMaterial queue=2225 instancing=True
+Material Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Materials/M_WoodTrim.mat refs=7 shader=Shader Graphs/S_PBR_OPAQUE_ORM_LeartesMasterMaterial queue=2225 instancing=True
+Material Resources/unity_builtin_extra refs=6 shader=Legacy Shaders/Particles/Alpha Blended Premultiply queue=3000 instancing=False
+Material Assets/CoffeeShopStarterPack/Materials/transparan.mat refs=6 shader=Universal Render Pipeline/Lit queue=3000 instancing=True
+Material Assets/Cups/Materials/Porcelain material.mat refs=6 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_bell_pink.mat refs=6 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/CoffeeShopStarterPack/Materials/basic_green.mat refs=6 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Book Storefront- FREE/Material/Shelf_with_books.mat refs=5 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_pointy_blue.mat refs=5 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Personally Imported-Developed/Models/Stick.fbx refs=5 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/FresnelHighlight.mat refs=4 shader=Shader Graphs/Unlit_Fresnel queue=2000 instancing=False
+Material Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/Materials/DepthOnly.mat refs=4 shader=Unlit/DepthOnly queue=3001 instancing=False
+Material Assets/Samples/XR Interaction Toolkit/3.2.1/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat refs=4 shader=Shader Graphs/Unity_Hand_Noise queue=3002 instancing=False
+Material Assets/Book Storefront- FREE/Material/mat_1.mat refs=4 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/CoffeeShopStarterPack/Materials/basic_plant.mat refs=4 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_simple_blue.mat refs=4 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_wavy_green.mat refs=4 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat refs=4 shader=Universal Render Pipeline/Particles/Unlit queue=3000 instancing=False
+Material Assets/CoffeeShopStarterPack/Materials/cup1.mat refs=4 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Resources/unity_builtin_extra refs=4 shader=Particles/Standard Unlit queue=3000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_round_beige.mat refs=3 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_bell_green.mat refs=3 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Controller_White.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=True
+Material Assets/Cups/Materials/Coffee material.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Book Storefront- FREE/Material/mat_4.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_simple_red.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_spiral_brown.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/CoffeeShopStarterPack/Materials/basic_metal.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Resources/unity_builtin_extra refs=2 shader=Legacy Shaders/Particles/Alpha Blended Premultiply queue=3000 instancing=False
+Material Assets/CoffeeShopStarterPack/Materials/cup2.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Carton of Milk 4K PBR/Materials/CartonOfMilk_Default.mat refs=2 shader=Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive queue=2000 instancing=False
+Material Assets/Notice/Materials/Notice.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/Log.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/InnerLog.mat refs=2 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/TunnelingVignette/TunnelingVignette.mat refs=1 shader=VR/TunnelingVignette queue=3005 instancing=False
+Material Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat refs=1 shader=Universal Render Pipeline/Simple Lit queue=2000 instancing=False
+Material Assets/Book Storefront- FREE/Material/glass1.mat refs=1 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Book Storefront- FREE/Material/mat_5.mat refs=1 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Book Storefront- FREE/Material/roof.mat refs=1 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_wavy_brown.mat refs=1 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Mushroom Forest/Materials/mushroom_wavy_pink.mat refs=1 shader=Universal Render Pipeline/Lit queue=2000 instancing=False
+Material Assets/Piloto Studio/Materials/Shared/Smoke_HarsherAlbedo_Alpha_Soft.mat refs=1 shader=Piloto Studio/UberFX queue=3000 instancing=False
+Material Assets/Piloto Studio/Materials/Shared/Crescent_Halftone_Add.mat refs=1 shader=Piloto Studio/UberFX queue=3000 instancing=False
+Material Assets/Piloto Studio/Materials/Fire/Fire_AlphaDistort_Ramped.mat refs=1 shader=Piloto Studio/UberFX queue=3000 instancing=False
+Material Assets/Piloto Studio/Materials/Shared/Flare_FatDot_Alpha.mat refs=1 shader=Piloto Studio/UberFX queue=3000 instancing=False
+Material Assets/COMICOMI/VFX_FirelyFlare/Art/Materials/Flare_01.mat refs=1 shader=Mobile/Particles/Additive queue=3000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(20.00,_0.00,_10.00)_20251106_151114_5126_3388/TerrainMaterial_20251106_151114_5126_3388.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(-20.00,_0.00,_20.00)_20251106_153138_C878_3575/TerrainMaterial_20251106_153138_C878_3575.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(10.00,_0.00,_10.00)_20251106_151024_6697_2967/TerrainMaterial_20251106_151024_6697_2967.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(20.00,_0.00,_40.00)_20251106_153359_4529_3041/TerrainMaterial_20251106_153359_4529_3041.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(-10.00,_0.00,_-20.00)_20251106_152904_EEDA_6096/TerrainMaterial_20251106_152904_EEDA_6096.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(10.00,_0.00,_40.00)_20251106_153307_5A9A_4902/TerrainMaterial_20251106_153307_5A9A_4902.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(10.00,_0.00,_-10.00)_20251106_151029_D4C2_5210/TerrainMaterial_20251106_151029_D4C2_5210.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Material Assets/FastTerrainAssets/Terrain_(-10.00,_0.00,_-30.00)_20251106_151235_F2D9_9056/TerrainMaterial_20251106_151235_F2D9_9056.mat refs=1 shader=Hidden/InternalErrorShader queue=2000 instancing=False
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (1)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (1)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (1)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (3)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (3)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (3)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (4)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (4)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (4)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (5)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (5)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (5)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (6)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (6)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (6)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (7)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (7)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (7)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (8)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (8)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (8)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (9)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (9)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (9)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (10)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (10)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (10)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (11)/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=0.5 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (11)/EmbersFlickering/SmokyRibbon_BiggerBackdrop (1) active=True max=100000 loop=True space=Local culling=AlwaysSimulate emission=30 lifetime=2 collision=False trigger=False trails=True noise=False render=None instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CANDLES/SM_props_candle_01_AmbienceFX (11)/EmbersFlickering/GlowWide active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espressomachine/metal/Espresso Pour Particles L active=True max=10000 loop=False space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espressomachine/metal/Espresso Pour Particles R active=True max=10000 loop=False space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espresso_cup/Pour Particles active=True max=10000 loop=True space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_cup02/Pour Particles active=True max=10000 loop=True space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station/Milk/Pour Particles active=True max=10000 loop=True space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espressomachine/metal/Espresso Pour Particles L active=True max=10000 loop=False space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espressomachine/metal/Espresso Pour Particles R active=True max=10000 loop=False space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espresso_cup/Pour Particles active=True max=10000 loop=True space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_cup02/Pour Particles active=True max=10000 loop=True space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/Milk/Pour Particles active=True max=10000 loop=True space=Local culling=Automatic emission=1000 lifetime=0.8 collision=False trigger=False trails=False noise=False render=Stretch instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CAMPFIRE/The Campfire/Fire active=True max=1000 loop=True space=Local culling=PauseAndCatchup emission=40 lifetime=1.3 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CAMPFIRE/The Campfire/Fire/Rings active=True max=1000 loop=True space=Local culling=PauseAndCatchup emission=20 lifetime=1 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CAMPFIRE/The Campfire/Fire/EmbersSmall active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=1 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CAMPFIRE/The Campfire/Fire/EmbersFlickering active=True max=1000 loop=True space=Local culling=AlwaysSimulate emission=15 lifetime=1 collision=False trigger=False trails=False noise=True render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CAMPFIRE/The Campfire/Fire/FireMains active=True max=1000 loop=True space=Local culling=PauseAndCatchup emission=20 lifetime=0.5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/CAMPFIRE/The Campfire/Fire/Glow active=True max=1 loop=True space=Local culling=Automatic emission=0 lifetime=Infinity collision=False trigger=False trails=False noise=False render=Billboard instancing=True bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/Fx_FirelyFire_01 active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/StraightToFire/Fx_FirelyFire_03 active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/StraightToFire/Fx_FirelyFire_03 (1) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/StraightToFire/Fx_FirelyFire_03 (2) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/StraightToFire/Fx_FirelyFire_03 (3) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (7) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (12) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (8) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (11) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (4) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (5) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (10) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (6) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Particle IN SCENE ASSETS/FIREFLIES/FirefliesTowardsFireplace/AroundMainArea/Fx_FirelyFire_03 (9) active=True max=100 loop=True space=World culling=AlwaysSimulate emission=20 lifetime=5 collision=False trigger=False trails=False noise=False render=Billboard instancing=False bounds=Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+Terrain TERRAIN active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=6 detailResolution=1024 heights=513
+ Detail mesh=grass01 (UnityEngine.GameObject) texture= instancing=False mode=Grass
+ Detail mesh=grass01 (UnityEngine.GameObject) texture= instancing=True mode=Grass
+ Detail mesh= texture=grassmesh (UnityEngine.Texture2D) instancing=False mode=GrassBillboard
+ Detail mesh=Cylinder (UnityEngine.GameObject) texture= instancing=True mode=VertexLit
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, 10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=19 detailResolution=1024 heights=513
+ Detail mesh= texture=grass01 (UnityEngine.Texture2D) instancing=False mode=GrassBillboard
+ Detail mesh=Cylinder (UnityEngine.GameObject) texture= instancing=True mode=VertexLit
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, 0.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=16 detailResolution=1024 heights=513
+ Detail mesh= texture=grassmesh (UnityEngine.Texture2D) instancing=False mode=GrassBillboard
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 2.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, 0.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=39 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Ash/Ash 1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/Standard/Weeping Willow/Weeping_Willow 6.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, -10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=36 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, 10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=66 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_4.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, -10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=44 detailResolution=1024 heights=513
+ Detail mesh=grass01 (UnityEngine.GameObject) texture= instancing=False mode=Grass
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Ash/Ash 1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, -20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=19 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, -10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=70 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, 10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=30 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, 20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=21 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, 20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=19 detailResolution=1024 heights=513
+ Detail mesh=grass01 (UnityEngine.GameObject) texture= instancing=False mode=Grass
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, -20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=32 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, -20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=43 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, -10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=19 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Ash/Ash 1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, 0.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=24 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Ash/Ash 1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, 10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=37 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, 20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=20 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, 30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=47 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, 30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=9 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, 30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=29 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, 40.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=51 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, 40.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=22 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, 40.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=31 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, -20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=22 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, -30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=4 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, -30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=0 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, -30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=15 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, -30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=4 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-20.00, 0.00, -20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=4 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-20.00, 0.00, -10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=30 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-20.00, 0.00, 0.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=40 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-20.00, 0.00, 10.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=16 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab LODGroups=1
+ Tree prefab=Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-20.00, 0.00, 20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=2 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, 20.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=13 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-20.00, 0.00, 30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=7 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-20.00, 0.00, 40.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=2 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(10.00, 0.00, 50.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=3 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(0.00, 0.00, 50.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=6 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(-10.00, 0.00, 50.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=3 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, 30.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=0 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Terrain TERRAIN/Terrain_(20.00, 0.00, 40.00) active=True instanced=True pixelError=50 detailDistance=60 density=1 treeDistance=150 billboard=100 maxFullLOD=2000 trees=1 detailResolution=1024 heights=513
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab LODGroups=1
+ Tree prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab LODGroups=1
+Audio XR Origin Hands (XR Rig)/Camera Offset/Left Hand active=False clip=Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav loop=False spatial=0
+Audio XR Origin Hands (XR Rig)/Camera Offset/Right Hand active=False clip=Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav loop=False spatial=0
+Audio XR Origin Hands (XR Rig)/AudioSources/FootstepAudioSource active=True clip= loop=True spatial=0.742
+Audio XR Origin Hands (XR Rig)/AudioSources/BirdAudioSource active=True clip= loop=True spatial=0.238
+Audio XR Origin Hands (XR Rig)/AudioSources/WindAudioSource active=True clip=Assets/Nature - Essentials/Ambiance_Wind_Forest_Loop_Stereo.wav loop=True spatial=0
+Audio IN SCENE ASSETS/CAMPFIRE/The Campfire active=True clip=Assets/Nature - Essentials/Ambiance_Firecamp_Medium_Loop_Mono.wav loop=True spatial=1
+Script TERRAIN/Terrain_(0.00, 0.00, 10.00) type=ApplyTerrainSettingsAll active=True
+Script TERRAIN/Terrain_(10.00, 0.00, 0.00) type=ApplyTerrainSettingsAll active=True
+Script TERRAIN/Terrain_(0.00, 0.00, -20.00) type=ApplyTerrainSettingsAll active=True
+Script Directional light type=DayAndNight active=False
+Script XR Origin Hands (XR Rig)/Camera Offset/Main Camera type=FPSCap active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left type=CalloutGazeController active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left/Affordance Callout Grab type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left/Affordance Callout Grab/Curve type=BezierCurve active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left/Affordance Callout Click type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left/Affordance Callout Click/Curve type=BezierCurve active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left/Affordance Callout Smooth type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left/Affordance Callout Smooth/Curve type=BezierCurve active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Left Controller/Affordance Callouts Left/Joystick Affordances Left type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right type=CalloutGazeController active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Grab type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Grab/Curve type=BezierCurve active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Click type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Click/Curve type=BezierCurve active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Blink type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Blink/Curve type=BezierCurve active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Turn type=Callout active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Affordance Callout Turn/Curve type=BezierCurve active=True
+Script XR Origin Hands (XR Rig)/Camera Offset/Right Controller/Affordance Callouts Right/Joystick Affordances Right type=Callout active=True
+Script XR Origin Hands (XR Rig)/AudioSources/FootstepAudioSource type=FootstepAudio active=True
+Script XR Origin Hands (XR Rig)/AudioSources/BirdAudioSource type=RandomBirdSectionPlayer active=True
+Script IN SCENE ASSETS/CEILING CHAIN/ceiling chain/Latern3 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/CEILING CHAIN/ceiling chain (1)/Latern3 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/CEILING CHAIN/ceiling chain (2)/Latern3 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/CEILING CHAIN/ceiling chain (3)/Latern3 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/CEILING CHAIN/ceiling chain (4)/Latern3 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/CEILING CHAIN/ceiling chain (5)/Latern3 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/CEILING CHAIN/ceiling chain (6)/Latern3 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/TABLES/table/BoothsChairsTables_SM_Chair_6 (18)/Lantern1 (3)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (5)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/MARSHMELLOW STICKS/Mushroom Holder/mushroom_spiral_brown_01/Lantern1 (3)/red_flame_0 type=CameraFacing active=True
+Script IN SCENE ASSETS/MARSHMELLOW STICKS/Marshmallow Stick type=MarshmallowRoasting active=True
+Script IN SCENE ASSETS/MARSHMELLOW STICKS/Marshmallow Stick (1) type=MarshmallowRoasting active=True
+Script IN SCENE ASSETS/MARSHMELLOW STICKS/Marshmallow Stick (2) type=MarshmallowRoasting active=True
+Script IN SCENE ASSETS/MARSHMELLOW STICKS/Marshmallow Stick (3) type=MarshmallowRoasting active=True
+Script IN SCENE ASSETS/MARSHMELLOW STICKS/Marshmallow Stick (4) type=MarshmallowRoasting active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espressomachine type=EspressoAutoPour active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espresso_cup type=XRGravityRestore active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espresso_cup type=LiquidContainer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espresso_cup type=CupPourer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_espresso_cup type=CupSipper active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_cup02 type=LiquidContainer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_cup02 type=CupPourer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/PW_cup02 type=CupSipper active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/Milk type=InfiniteLiquidContainer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/Milk type=CupPourer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station/Milk type=CupSipper active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espressomachine type=EspressoAutoPour active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espresso_cup type=XRGravityRestore active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espresso_cup type=LiquidContainer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espresso_cup type=CupPourer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_espresso_cup type=CupSipper active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_cup02 type=LiquidContainer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_cup02 type=CupPourer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/PW_cup02 type=CupSipper active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/Milk type=InfiniteLiquidContainer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/Milk type=CupPourer active=True
+Script IN SCENE ASSETS/COFFEE STATION/Coffee Station (1)/Milk type=CupSipper active=True
+Script IN SCENE ASSETS/CAMPFIRE/Log(Long)/Log(Long) type=ChairSeatController active=True
+Script IN SCENE ASSETS/CAMPFIRE/Log(Long) (1) type=ChairSeatController active=True
+Script UI/Affordance Callout type=Callout active=True
+Script UI/Affordance Callout/Curve type=BezierCurve active=True
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_Props_SubstancePainter_PaintingsChalkboard_N.TGA size=2048x2048 bytesEditor=5593375 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_PropDecals.TGA size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/books01_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_4_MetallicSmoothness.png size=2048x2048 bytesEditor=2797148 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Ash_Single.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_DirtMasks_01_ORM.TGA size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_BoothChairsTables_Trim_ORM.TGA size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Carton of Milk 4K PBR/Textures/CartonOfMilk_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_1_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Weeping Willow/Leaf_1.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/HDRP/booksStore_Mat_1_BaseMap.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Menus/forest café 2-02.png size=1308x2048 bytesEditor=1340288 readable=False mipmaps=False streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_WoodTrim_Trim_N.TGA size=2048x1024 bytesEditor=2797136 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Menus/forest café 2-03.png size=1308x2048 bytesEditor=1340288 readable=False mipmaps=False streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Spruce/Spruce_Bark.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Weeping Willow/Willow_Normal.png size=2048x1024 bytesEditor=2797136 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Menus/forest café 2-05.png size=1308x2048 bytesEditor=1340288 readable=False mipmaps=False streaming=False compression=Compressed
+Texture Assets/Carton of Milk 4K PBR/Textures/CartonOfMilk_Roughness.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Ash/Leaf_2.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Textures/DefaultMaterial_AO.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Chestnut/Chestnut_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_5_MetallicSmoothness.png size=2048x2048 bytesEditor=2797148 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_Props_SubstancePainter_PaintingsChalkboard_ORM.TGA size=2048x2048 bytesEditor=2797161 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Ash/Ash_Bark_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Prefabs/Standard/Chestnut/Leaf_1.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Weeping Willow/Leaf_2.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Ash_Single.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Spruce/Spruce_Normal.png size=2048x1024 bytesEditor=2797136 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Ash/Ash_Bark.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_BoothChairsTables_Trim_N.TGA size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Carton of Milk 4K PBR/Textures/CartonOfMilk_Default.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Prefabs/Standard/Chestnut/Leaf_3.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_4_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_5_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Chestnut/Chestnut_Bark.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/ZNS3D/Mix_Furniture_Pack/Textures/Bookshelf_1/bookshelf_Mat_Bookshelf_1_Metallic.png size=2048x2048 bytesEditor=2797147 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Weeping Willow/Willow_Bark.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Ash/Leaf_1.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/TextMesh Pro/Resources/Sprite Assets/InlineIcons.png size=1024x2048 bytesEditor=2098048 readable=False mipmaps=False streaming=False compression=CompressedHQ
+Texture Assets/Realistic Tree/Source/Textures/Spruce/Leaf_1.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/HDRP/books01_lambert3_BaseMap.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/AltonGames/3DNatureAssetsPack(Lite)/Textures/tree_bark_seamless_texture_208.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/books01_MetallicSmoothness.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Menus/forest café 2-04.png size=1308x2048 bytesEditor=1340288 readable=False mipmaps=False streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/HDRP/booksStore_Mat_4_BaseMap.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_1_MetallicSmoothness.png size=2048x2048 bytesEditor=2797148 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/ZNS3D/Mix_Furniture_Pack/Textures/Bookshelf_1/bookshelf_Mat_Bookshelf_1_Normal.png size=2048x2048 bytesEditor=5593361 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Notice/Textures/Notice_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_glass1_MetallicSmoothness.png size=2048x2048 bytesEditor=2797149 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_WoodTrim_Trim_ORM.TGA size=2048x1024 bytesEditor=1399016 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Menus/forest café 2-06.png size=1308x2048 bytesEditor=1340288 readable=False mipmaps=False streaming=False compression=Compressed
+Texture Assets/Notice/Textures/Notice_MetallicSmoothness.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_WoodTrim_Trim_B.TGA size=2048x1024 bytesEditor=1399016 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_BoothChairsTables_Trim_B.TGA size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/AltonGames/3DNatureAssetsPack(Lite)/Textures/vidar-smits-n9keASFV1xo-unsplash.png size=4096x4096 bytesEditor=11185753 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Prefabs/Standard/Chestnut/Leaf_2.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/ZNS3D/Mix_Furniture_Pack/Textures/Bookshelf_1/bookshelf_Mat_Bookshelf_1_BaseColor.png size=2048x2048 bytesEditor=2797148 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_4_Emission.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/HDRP/booksStore_glass1_BaseMap.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/ZNS3D/Mix_Furniture_Pack/Textures/Bookshelf_1/bookshelf_Mat_Bookshelf_1_Roughness.png size=2048x2048 bytesEditor=2797148 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_Mat_5_AlbedoTransparency.png size=2048x2048 bytesEditor=2797148 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Menus/forest café 2-01.png size=1308x2048 bytesEditor=1340288 readable=False mipmaps=False streaming=False compression=Compressed
+Texture Assets/LeartesStudios/CoffeeShopInterior/HDRP/Art/Textures/T_Props_SubstancePainter_PaintingsChalkboard_B.TGA size=2048x2048 bytesEditor=2797159 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Realistic Tree/Source/Textures/Spruce/Leaf_2.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Notice/Textures/Notice_Albedo.png size=2048x2048 bytesEditor=2797112 readable=False mipmaps=True streaming=False compression=Compressed
+Texture Assets/Book Storefront- FREE/Texture/PBR/booksStore_glass1_Normal.png size=2048x2048 bytesEditor=5593328 readable=False mipmaps=True streaming=False compression=Compressed
