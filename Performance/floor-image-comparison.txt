@@ -1,0 +1,4 @@
+Recomputed from preserved October 7 comparison PNGs. Static Editor images, not HMD acceptance.
+standing: mean absolute RGB error (0..255)=0.003170
+close: mean absolute RGB error (0..255)=0.010769
+grazing: mean absolute RGB error (0..255)=0.021682

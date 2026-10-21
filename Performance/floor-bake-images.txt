@@ -1,0 +1,3 @@
+standing: mean RGB absolute difference=4.52972/255
+close: mean RGB absolute difference=6.36161/255
+grazing: mean RGB absolute difference=3.53150/255

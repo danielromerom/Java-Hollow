@@ -1,0 +1,4 @@
+Separate LOD1 candidates. tree_1 and original prefabs unchanged.
+Willow_7: closest geometry 19378 -> 9689 triangles; materials/colliders/wind retained; 3 LOD levels retained.
+Chestnut_1: closest geometry 16401 -> 10454 triangles; materials/colliders/wind retained; 3 LOD levels retained.
+Chestnut_7: closest geometry 27092 -> 13544 triangles; materials/colliders/wind retained; 3 LOD levels retained.

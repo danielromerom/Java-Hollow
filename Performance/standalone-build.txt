@@ -1,0 +1,2 @@
+2026-10-07T17:23:19.1692033-04:00: Succeeded; errors=0; size=1826637179; seconds=412.6
+Scene is a copy of the open Demo for Show scene, including unsaved edits. VR quality selected only in this diagnostic build.

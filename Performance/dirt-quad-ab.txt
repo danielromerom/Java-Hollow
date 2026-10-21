@@ -1,0 +1,7 @@
+Editor fixed-view A/B/A; same density and scene state. Full detail density throughout. Terrain data cloned in memory; originals restored automatically. Not HMD performance.
+PASS: all affected generated detail positions, rotations, scales and counts match exactly before/after prefab substitution.
+Original caps: samples=145, meanMs=55.32, p95Ms=60.13, trianglesMean=19361861, batchesMean=1452
+Quad candidate: samples=191, meanMs=42.04, p95Ms=55.85, trianglesMean=2233168, batchesMean=1447
+Original caps: samples=144, meanMs=55.70, p95Ms=59.44, trianglesMean=19501488, batchesMean=1464
+
+Context correction: the repeated run above was in active XR. The generic tool header predates XR context collection. See dirt-quad-xr-context.txt: all 256 overlapping presence samples were true. Short isolated-scene Editor run, not full-scene/standalone acceptance.

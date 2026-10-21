@@ -1,0 +1,215 @@
+Scene: Assets/Terrain_Demo_For_Show.unity
+Inventory estimates, not visible draw counts or GPU timings. Detail counts are stored density-map values, not rendered instances.
+Terrain TERRAIN: size=(10.00, 600.00, 10.00), trees=6
+ Detail 0: densitySum=0, prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX, texture=, instanced=False, mode=Grass
+ Mesh grass01: triangles=8
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/grassmesh.mat: shader=Universal Render Pipeline/Lit, instancing=False, queue=2000
+ Detail 1: densitySum=480, prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX, texture=, instanced=True, mode=Grass
+ Mesh grass01: triangles=8
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/grassmesh.mat: shader=Universal Render Pipeline/Lit, instancing=False, queue=2000
+ Detail 2: densitySum=0, prefab=, texture=Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png, instanced=False, mode=GrassBillboard
+ Detail 3: densitySum=479901, prefab=Assets/Fantasy Forest Environment Free Sample/Textures/Cylinder.prefab, texture=, instanced=True, mode=VertexLit
+ Mesh Cylinder: triangles=80
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat: shader=Universal Render Pipeline/Simple Lit, instancing=False, queue=2000
+Terrain Terrain_(0.00, 0.00, 10.00): size=(10.00, 600.00, 10.00), trees=19
+ Detail 0: densitySum=0, prefab=, texture=Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga, instanced=False, mode=GrassBillboard
+ Detail 1: densitySum=6, prefab=Assets/Fantasy Forest Environment Free Sample/Textures/Cylinder.prefab, texture=, instanced=True, mode=VertexLit
+ Mesh Cylinder: triangles=80
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat: shader=Universal Render Pipeline/Simple Lit, instancing=False, queue=2000
+Terrain Terrain_(-10.00, 0.00, 0.00): size=(10.00, 600.00, 10.00), trees=16
+ Detail 0: densitySum=0, prefab=, texture=Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png, instanced=False, mode=GrassBillboard
+Terrain Terrain_(10.00, 0.00, 0.00): size=(10.00, 600.00, 10.00), trees=39
+Terrain Terrain_(0.00, 0.00, -10.00): size=(10.00, 600.00, 10.00), trees=36
+Terrain Terrain_(10.00, 0.00, 10.00): size=(10.00, 600.00, 10.00), trees=66
+Terrain Terrain_(10.00, 0.00, -10.00): size=(10.00, 600.00, 10.00), trees=44
+ Detail 0: densitySum=0, prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX, texture=, instanced=False, mode=Grass
+ Mesh grass01: triangles=8
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/grassmesh.mat: shader=Universal Render Pipeline/Lit, instancing=False, queue=2000
+Terrain Terrain_(0.00, 0.00, -20.00): size=(10.00, 600.00, 10.00), trees=19
+Terrain Terrain_(-10.00, 0.00, -10.00): size=(10.00, 600.00, 10.00), trees=70
+Terrain Terrain_(-10.00, 0.00, 10.00): size=(10.00, 600.00, 10.00), trees=30
+Terrain Terrain_(0.00, 0.00, 20.00): size=(10.00, 600.00, 10.00), trees=21
+Terrain Terrain_(-10.00, 0.00, 20.00): size=(10.00, 600.00, 10.00), trees=19
+ Detail 0: densitySum=2, prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX, texture=, instanced=False, mode=Grass
+ Mesh grass01: triangles=8
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/grassmesh.mat: shader=Universal Render Pipeline/Lit, instancing=False, queue=2000
+Terrain Terrain_(-10.00, 0.00, -20.00): size=(10.00, 600.00, 10.00), trees=32
+Terrain Terrain_(10.00, 0.00, -20.00): size=(10.00, 600.00, 10.00), trees=43
+Terrain Terrain_(20.00, 0.00, -10.00): size=(10.00, 600.00, 10.00), trees=19
+Terrain Terrain_(20.00, 0.00, 0.00): size=(10.00, 600.00, 10.00), trees=24
+Terrain Terrain_(20.00, 0.00, 10.00): size=(10.00, 600.00, 10.00), trees=37
+Terrain Terrain_(10.00, 0.00, 20.00): size=(10.00, 600.00, 10.00), trees=20
+Terrain Terrain_(-10.00, 0.00, 30.00): size=(10.00, 600.00, 10.00), trees=47
+Terrain Terrain_(0.00, 0.00, 30.00): size=(10.00, 600.00, 10.00), trees=9
+Terrain Terrain_(10.00, 0.00, 30.00): size=(10.00, 600.00, 10.00), trees=29
+Terrain Terrain_(-10.00, 0.00, 40.00): size=(10.00, 600.00, 10.00), trees=51
+Terrain Terrain_(0.00, 0.00, 40.00): size=(10.00, 600.00, 10.00), trees=22
+Terrain Terrain_(10.00, 0.00, 40.00): size=(10.00, 600.00, 10.00), trees=31
+Terrain Terrain_(20.00, 0.00, -20.00): size=(10.00, 600.00, 10.00), trees=22
+Terrain Terrain_(10.00, 0.00, -30.00): size=(10.00, 600.00, 10.00), trees=4
+Terrain Terrain_(20.00, 0.00, -30.00): size=(10.00, 600.00, 10.00), trees=0
+Terrain Terrain_(0.00, 0.00, -30.00): size=(10.00, 600.00, 10.00), trees=15
+Terrain Terrain_(-10.00, 0.00, -30.00): size=(10.00, 600.00, 10.00), trees=4
+Terrain Terrain_(-20.00, 0.00, -20.00): size=(10.00, 600.00, 10.00), trees=4
+Terrain Terrain_(-20.00, 0.00, -10.00): size=(10.00, 600.00, 10.00), trees=30
+Terrain Terrain_(-20.00, 0.00, 0.00): size=(10.00, 600.00, 10.00), trees=40
+Terrain Terrain_(-20.00, 0.00, 10.00): size=(10.00, 600.00, 10.00), trees=16
+Terrain Terrain_(-20.00, 0.00, 20.00): size=(10.00, 600.00, 10.00), trees=2
+Terrain Terrain_(20.00, 0.00, 20.00): size=(10.00, 600.00, 10.00), trees=13
+Terrain Terrain_(-20.00, 0.00, 30.00): size=(10.00, 600.00, 10.00), trees=7
+Terrain Terrain_(-20.00, 0.00, 40.00): size=(10.00, 600.00, 10.00), trees=2
+Terrain Terrain_(10.00, 0.00, 50.00): size=(10.00, 600.00, 10.00), trees=3
+Terrain Terrain_(0.00, 0.00, 50.00): size=(10.00, 600.00, 10.00), trees=6
+Terrain Terrain_(-10.00, 0.00, 50.00): size=(10.00, 600.00, 10.00), trees=3
+Terrain Terrain_(20.00, 0.00, 30.00): size=(10.00, 600.00, 10.00), trees=0
+Terrain Terrain_(20.00, 0.00, 40.00): size=(10.00, 600.00, 10.00), trees=1
+TREE instances=534 prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_2.prefab
+ LODGroup Spruce_2: size=4.351783, enabled=True
+  LOD0: threshold=0.25, triangles=17016, renderers=3
+  LOD1: threshold=0.125, triangles=8508, renderers=3
+  LOD2: threshold=0.0625, triangles=4253, renderers=3
+  LOD3: threshold=0.01, triangles=2126, renderers=3
+ Mesh Spruce2_LOD0: triangles=6008
+ Mesh Leaves1_LOD0: triangles=7840
+ Mesh Leaves2_LOD0: triangles=3168
+ Mesh Spruce2_LOD1: triangles=3004
+ Mesh Leaves1_LOD1: triangles=3920
+ Mesh Leaves2_LOD1: triangles=1584
+ Mesh Spruce2_LOD2: triangles=1501
+ Mesh Leaves1_LOD2: triangles=1960
+ Mesh Leaves2_LOD2: triangles=792
+ Mesh Spruce2_LOD3: triangles=750
+ Mesh Leaves1_LOD3: triangles=980
+ Mesh Leaves2_LOD3: triangles=396
+ Material Assets/Realistic Tree/Source/Materials/URP/Bark/Spruce.mat: shader=Shader Graphs/Bark_URP, instancing=False, queue=2000
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_1.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_2.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+TREE instances=144 prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab
+ LODGroup Chestnut_7: size=7.54806, enabled=True
+  LOD0: threshold=0.25, triangles=27092, renderers=5
+  LOD1: threshold=0.125, triangles=13544, renderers=5
+  LOD2: threshold=0.0625, triangles=6769, renderers=5
+  LOD3: threshold=0.01, triangles=3801, renderers=5
+ Mesh Chestnut7_LOD0: triangles=7721
+ Mesh Leaves1_LOD0: triangles=14443
+ Mesh Leaves2_LOD0: triangles=640
+ Mesh Leaves3_LOD0: triangles=2368
+ Mesh Leaves4_LOD0: triangles=1920
+ Mesh Chestnut7_LOD1: triangles=3859
+ Mesh Leaves1_LOD1: triangles=7221
+ Mesh Leaves2_LOD1: triangles=320
+ Mesh Leaves3_LOD1: triangles=1184
+ Mesh Leaves4_LOD1: triangles=960
+ Mesh Chestnut7_LOD2: triangles=1928
+ Mesh Leaves1_LOD2: triangles=3609
+ Mesh Leaves2_LOD2: triangles=160
+ Mesh Leaves3_LOD2: triangles=592
+ Mesh Leaves4_LOD2: triangles=480
+ Mesh Chestnut7_LOD3: triangles=1382
+ Mesh Leaves1_LOD3: triangles=1803
+ Mesh Leaves2_LOD3: triangles=80
+ Mesh Leaves3_LOD3: triangles=296
+ Mesh Leaves4_LOD3: triangles=240
+ Material Assets/Realistic Tree/Source/Materials/URP/Bark/Chestnut.mat: shader=Shader Graphs/Bark_URP, instancing=False, queue=2000
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_3.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_2.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_1.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+TREE instances=105 prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab
+ LODGroup Chestnut_1: size=5.642935, enabled=True
+  LOD0: threshold=0.25, triangles=16401, renderers=4
+  LOD1: threshold=0.125, triangles=10454, renderers=4
+  LOD2: threshold=0.0625, triangles=5226, renderers=4
+  LOD3: threshold=0.01, triangles=2612, renderers=4
+ Mesh Chestnut1_LOD0: triangles=7953
+ Mesh Leaves1_LOD0: triangles=512
+ Mesh Leaves2_LOD0: triangles=3776
+ Mesh Leaves3_LOD0: triangles=4160
+ Mesh Chestnut1_LOD1: triangles=6230
+ Mesh Leaves1_LOD1: triangles=256
+ Mesh Leaves2_LOD1: triangles=1888
+ Mesh Leaves3_LOD1: triangles=2080
+ Mesh Chestnut1_LOD2: triangles=3114
+ Mesh Leaves1_LOD2: triangles=128
+ Mesh Leaves2_LOD2: triangles=944
+ Mesh Leaves3_LOD2: triangles=1040
+ Mesh Chestnut1_LOD3: triangles=1556
+ Mesh Leaves1_LOD3: triangles=64
+ Mesh Leaves2_LOD3: triangles=472
+ Mesh Leaves3_LOD3: triangles=520
+ Material Assets/Realistic Tree/Source/Materials/URP/Bark/Chestnut.mat: shader=Shader Graphs/Bark_URP, instancing=False, queue=2000
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_3.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_2.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_1.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+TREE instances=64 prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab
+ LODGroup tree_1: size=16.12675, enabled=True
+  LOD0: threshold=0.5533183, triangles=5091, renderers=1
+  LOD1: threshold=0.1514988, triangles=3209, renderers=1
+  LOD2: threshold=0.01, triangles=1670, renderers=1
+ Mesh tree_1_LOD0: triangles=5091
+ Mesh tree_1_LOD1: triangles=3209
+ Mesh tree_1_LOD2: triangles=1670
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat: shader=Universal Render Pipeline/Lit, instancing=True, queue=2000
+ Material Assets/Fantasy Forest Environment Free Sample/Materials/tree_branches.mat: shader=Universal Render Pipeline/Lit, instancing=True, queue=2000
+TREE instances=59 prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab
+ LODGroup Willow_7: size=1, enabled=True
+  LOD0: threshold=0.02621348, triangles=19378, renderers=2
+  LOD1: threshold=0.01310674, triangles=9689, renderers=2
+  LOD2: threshold=0.006553369, triangles=4843, renderers=2
+  LOD3: threshold=0.001048539, triangles=2420, renderers=2
+ Mesh Willow7_LOD0: triangles=8114
+ Mesh Leaves_LOD0: triangles=11264
+ Mesh Willow7_LOD1: triangles=4057
+ Mesh Leaves_LOD1: triangles=5632
+ Mesh Willow7_LOD2: triangles=2027
+ Mesh Leaves_LOD2: triangles=2816
+ Mesh Willow7_LOD3: triangles=1012
+ Mesh Leaves_LOD3: triangles=1408
+ Material Assets/Realistic Tree/Source/Materials/URP/Bark/Bark_Willow.mat: shader=Shader Graphs/Bark_URP, instancing=False, queue=2000
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Weeping Willow/Weeping_Willow.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+TREE instances=8 prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_4.prefab
+ LODGroup Chestnut_4: size=6.144773, enabled=True
+  LOD0: threshold=0.25, triangles=17756, renderers=4
+  LOD1: threshold=0.125, triangles=10004, renderers=4
+  LOD2: threshold=0.0625, triangles=5002, renderers=4
+  LOD3: threshold=0.01, triangles=2501, renderers=4
+ Mesh Chestnut1_LOD0: triangles=9020
+ Mesh Leaves1_LOD0: triangles=800
+ Mesh Leaves2_LOD0: triangles=3776
+ Mesh Leaves3_LOD0: triangles=4160
+ Mesh Chestnut1_LOD1: triangles=5636
+ Mesh Leaves1_LOD1: triangles=400
+ Mesh Leaves2_LOD1: triangles=1888
+ Mesh Leaves3_LOD1: triangles=2080
+ Mesh Chestnut1_LOD2: triangles=2818
+ Mesh Leaves1_LOD2: triangles=200
+ Mesh Leaves2_LOD2: triangles=944
+ Mesh Leaves3_LOD2: triangles=1040
+ Mesh Chestnut1_LOD3: triangles=1409
+ Mesh Leaves1_LOD3: triangles=100
+ Mesh Leaves2_LOD3: triangles=472
+ Mesh Leaves3_LOD3: triangles=520
+ Material Assets/Realistic Tree/Source/Materials/URP/Bark/Chestnut.mat: shader=Shader Graphs/Bark_URP, instancing=False, queue=2000
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_3.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_2.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_1.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+TREE instances=7 prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_1.prefab
+ LODGroup Spruce_1: size=4.272032, enabled=True
+  LOD0: threshold=0.25, triangles=15096, renderers=3
+  LOD1: threshold=0.125, triangles=7548, renderers=3
+  LOD2: threshold=0.0625, triangles=3773, renderers=3
+  LOD3: threshold=0.01, triangles=1886, renderers=3
+ Mesh Spruce1_LOD0: triangles=6008
+ Mesh Leaves1_LOD0: triangles=7840
+ Mesh Leaves2_LOD0: triangles=1248
+ Mesh Spruce1_LOD1: triangles=3004
+ Mesh Leaves1_LOD1: triangles=3920
+ Mesh Leaves2_LOD1: triangles=624
+ Mesh Spruce1_LOD2: triangles=1501
+ Mesh Leaves1_LOD2: triangles=1960
+ Mesh Leaves2_LOD2: triangles=312
+ Mesh Spruce1_LOD3: triangles=750
+ Mesh Leaves1_LOD3: triangles=980
+ Mesh Leaves2_LOD3: triangles=156
+ Material Assets/Realistic Tree/Source/Materials/URP/Bark/Spruce.mat: shader=Shader Graphs/Bark_URP, instancing=False, queue=2000
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_1.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450
+ Material Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_2.mat: shader=Shader Graphs/Leaves_URP, instancing=False, queue=2450

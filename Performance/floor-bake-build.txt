@@ -1,0 +1,3 @@
+Ground bake: albedo/coverage only; terrain collider, trees, other details, audio and scene unchanged.
+TERRAIN: 479901 dirt instances baked; overlay 524288 triangles; grid 512; sampled height error 0m; texture 4096x4096; other detail maps/trees unchanged.
+Terrain_(0.00, 0.00, 10.00): 6 dirt instances baked; overlay 524288 triangles; grid 512; sampled height error 0m; texture 4096x4096; other detail maps/trees unchanged.

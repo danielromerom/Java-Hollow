@@ -1,0 +1,14 @@
+2026-10-21T14:45:52.8741626-04:00; temporary cloned terrain data; each named phase omits ONLY that tree type; 3s settle, 6s sample.
+Chestnut_1: count=4
+Chestnut_7: count=2
+Spruce_2: count=13
+tree_1: count=1
+Willow_7: count=5
+All trees: FPS=36.67; ms=27.27; triangles=322042; worn=220/220
+Without Chestnut_1: FPS=57.10; ms=17.51; triangles=269771; worn=344/344
+Without Chestnut_7: FPS=62.72; ms=15.95; triangles=240733; worn=376/376
+Without Spruce_2: FPS=46.33; ms=21.58; triangles=258190; worn=279/279
+Without tree_1: FPS=34.94; ms=28.62; triangles=315556; worn=209/209
+Without Willow_7: FPS=71.62; ms=13.96; triangles=215398; worn=430/430
+All trees: FPS=39.26; ms=25.47; triangles=322226; worn=233/236
+All original terrain data restored.

@@ -1,0 +1,72 @@
+CPU profiler capture: 60 frames. Inclusive marker ms/frame; nested markers overlap and must not be summed. Profiling adds overhead.
+Captured=2026-10-07T17:05:24.2406716-04:00; XR running throughout; headset presence start=True, end=True; GPU=NVIDIA GeForce RTX 2060; API=Direct3D12
+96.493 ms | Render Thread / 
+96.415 ms | Main Thread / Main Thread
+91.317 ms | Main Thread / PlayerLoop
+88.187 ms | Render Thread / RenderLoop
+77.036 ms | Main Thread / RenderPlayModeViewCameras
+66.708 ms | Main Thread / FrameEvents.XRBeginFrame
+66.677 ms | Main Thread / Gfx.WaitForRenderThread
+66.676 ms | Main Thread / Semaphore.WaitForSignal
+14.289 ms | Render Thread / Semaphore.WaitForSignal
+14.279 ms | Main Thread / UpdateScene
+11.768 ms | Main Thread / EarlyUpdate.XRUpdate
+8.297 ms | Render Thread / Gfx.WaitForGfxCommandsFromMainThread
+7.997 ms | Main Thread / UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.DoRenderLoop_Internal() [Invoke]
+7.947 ms | Main Thread / Inl_UniversalRenderTotal
+7.918 ms | Main Thread / Inl_RenderCameraStack
+7.011 ms | Main Thread / Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera
+6.125 ms | Render Thread / PlayerEndOfFrame
+4.159 ms | Main Thread / EditorLoop
+4.046 ms | Main Thread / WaitForJobGroupID
+3.869 ms | Main Thread / CullScriptable
+2.781 ms | Main Thread / Inl_ScriptableRenderer.Execute: Standalone Preset
+2.505 ms | Main Thread / Inl_ScriptableRenderer.SetupLights
+2.503 ms | Main Thread / Inl_Setup Light Constants
+2.190 ms | Main Thread / Idle
+1.771 ms | Main Thread / TerrainManager.CullAllTerrains
+1.530 ms | Main Thread / Gfx.EndAsyncJobFrame
+1.529 ms | Main Thread / WaitForRenderJobs
+1.448 ms | Main Thread / EngineJob
+0.958 ms | Main Thread / CullResults.CreateSharedRendererScene
+0.951 ms | Main Thread / CullPerObjectLights
+0.908 ms | Main Thread / EndRenderQueueExtraction
+0.884 ms | Main Thread / Profiler.FlushCounters
+0.882 ms | Main Thread / SceneCulling
+0.854 ms | Main Thread / Profiler.FlushMemoryCounters
+0.854 ms | Main Thread / Terrain.Details.Render
+0.683 ms | Main Thread / Inl_ScriptableRenderContext.Submit
+0.680 ms | Main Thread / FixedUpdate.PhysicsFixedUpdate
+0.639 ms | Main Thread / QueuePrepareIntegrateMainThreadObjects
+0.604 ms | Main Thread / Physics.RunSimulationStage
+0.599 ms | Main Thread / Physics.Simulate
+0.573 ms | Main Thread / PxScene.simulate
+0.528 ms | Main Thread / RenderLoop.ScheduleDraw
+0.500 ms | Render Thread / GfxDeviceD3D12.WaitForGPU
+0.415 ms | Main Thread / CullSendEvents
+0.406 ms | Main Thread / Update.ScriptRunBehaviourUpdate
+0.405 ms | Main Thread / BehaviourUpdate
+0.399 ms | Render Thread / XR.Display.SubmitCurrentFrame
+0.385 ms | Main Thread / FrameEvents.OnBeforeRenderCallback
+0.383 ms | Main Thread / UnityEngine.CoreModule.dll!UnityEngine::Application.InvokeOnBeforeRender() [Invoke]
+0.366 ms | Main Thread / afterCullingOutputReady.Invoke
+0.358 ms | Main Thread / Terrain.Trees.OnWillRender
+0.327 ms | Main Thread / DrawOpaqueObjects
+0.301 ms | Main Thread / Terrain.Trees.Render
+0.299 ms | Main Thread / XRHandSubsystemPlayerLoopRunnerUpdateSystem
+0.299 ms | Main Thread / UnityEngine.CoreModule.dll!::UpdateFunction.Invoke() [Invoke]
+0.190 ms | Main Thread / Inl_ScriptableRenderer.Setup
+0.171 ms | Main Thread / Director.ProcessFrame
+0.170 ms | Main Thread / ExecuteRenderQueueJob
+0.163 ms | Main Thread / Animators.Update
+0.154 ms | Main Thread / TreeRenderer.Render
+0.150 ms | Main Thread / PreLateUpdate.DirectorUpdateAnimationBegin
+0.150 ms | Main Thread / Terrain.Heightmap.RenderStep3
+0.150 ms | Main Thread / CullAllVisibleLights
+0.143 ms | Render Thread / BlitFinalToBackBuffer
+0.139 ms | Render Thread / DrawTransparentObjects
+0.133 ms | Main Thread / RenderLoop.DrawSRPBatcher
+0.121 ms | Main Thread / FindActiveLights
+0.114 ms | Render Thread / XR.Display.PopulateNextFrameDesc
+0.114 ms | Main Thread / LODTreeInstanceRenderer.UpdateWind
+0.113 ms | Main Thread / Terrain.UpdateSplatProperties

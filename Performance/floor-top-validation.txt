@@ -1,0 +1,4 @@
+PASS: 40 -> 20 triangles per detail; all 20 original upper triangles retained verbatim.
+Only downward-facing triangles at y=-1 removed. Vertex attributes, mesh bounds, materials, transforms and terrain density unchanged.
+Opaque back-face culling means removed faces were invisible from above their planes. Views below a detail plane can differ.
+No measured VR frame-rate improvement claimed. Rollback mesh preserved beside this report.

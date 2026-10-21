@@ -1,0 +1,18 @@
+2026-10-21T14:40:04.3672547-04:00; Tree material instancing A/B/A; 4s settling + 8s measurement.
+Assets/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat; shader=Universal Render Pipeline/Lit; originalInstancing=True
+Assets/Fantasy Forest Environment Free Sample/Materials/tree_branches.mat; shader=Universal Render Pipeline/Lit; originalInstancing=True
+Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Weeping_Single.mat; shader=Universal Render Pipeline/Lit; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Bark/Bark_Willow.mat; shader=Shader Graphs/Bark_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Leaves/Weeping Willow/Weeping_Willow.mat; shader=Shader Graphs/Leaves_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Bark/Chestnut.mat; shader=Shader Graphs/Bark_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_3.mat; shader=Shader Graphs/Leaves_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_2.mat; shader=Shader Graphs/Leaves_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_1.mat; shader=Shader Graphs/Leaves_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Bark/Spruce.mat; shader=Shader Graphs/Bark_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_1.mat; shader=Shader Graphs/Leaves_URP; originalInstancing=False
+Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_2.mat; shader=Shader Graphs/Leaves_URP; originalInstancing=False
+Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat; shader=Universal Render Pipeline/Lit; originalInstancing=False
+Original: FPS=59.82; ms=16.72; batches=85.4; worn=479/479
+Instancing enabled: FPS=43.65; ms=22.91; batches=85.2; worn=348/348
+Original: FPS=58.35; ms=17.14; batches=83.7; worn=468/468
+Restored all material flags.

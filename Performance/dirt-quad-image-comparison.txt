@@ -1,0 +1,4 @@
+Static Editor render comparison, 1280x720, same camera/material/light settings for each A/B pair. Not an HMD acceptance test.
+standing: mean absolute RGB error (0..255)=0.072732, pixels with summed RGB difference >6=10977/921600
+close: mean absolute RGB error (0..255)=0.142568, pixels with summed RGB difference >6=19237/921600
+grazing: mean absolute RGB error (0..255)=0.083881, pixels with summed RGB difference >6=10583/921600

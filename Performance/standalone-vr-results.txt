@@ -1,0 +1,12 @@
+VR_CHECK quality=VR; API=Direct3D11; GPU=NVIDIA GeForce RTX 2060
+VR_CHECK fps=27.85; meanMs=35.90; headsetPresence=0/279; XRactive=False
+VR_CHECK fps=461.96; meanMs=2.16; headsetPresence=0/4620; XRactive=True
+VR_CHECK fps=668.34; meanMs=1.50; headsetPresence=0/6684; XRactive=True
+VR_CHECK fps=200.43; meanMs=4.99; headsetPresence=125/2010; XRactive=True
+VR_CHECK fps=10.30; meanMs=97.12; headsetPresence=103/104; XRactive=True
+VR_CHECK fps=10.02; meanMs=99.82; headsetPresence=101/101; XRactive=True
+VR_CHECK fps=12.13; meanMs=82.42; headsetPresence=114/122; XRactive=True
+VR_CHECK fps=9.56; meanMs=104.58; headsetPresence=94/96; XRactive=True
+VR_CHECK fps=9.88; meanMs=101.21; headsetPresence=99/99; XRactive=True
+VR_CHECK fps=9.91; meanMs=100.92; headsetPresence=100/100; XRactive=True
+VR_CHECK fps=13.83; meanMs=72.31; headsetPresence=139/139; XRactive=True

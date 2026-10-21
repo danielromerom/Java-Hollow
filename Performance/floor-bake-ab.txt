@@ -1,0 +1,4 @@
+Baked ground A/B/A, 4s settling + 8s measured per phase; fixed view required.
+Original: meanMs=27.74; FPS=36.04; p95=29.74; triangles=2241646; batches=1473; XR=True; worn=288/288
+Baked: meanMs=15.92; FPS=62.80; p95=17.63; triangles=322042; batches=89; XR=True; worn=502/502
+Original: meanMs=28.87; FPS=34.64; p95=33.27; triangles=2241611; batches=1473; XR=True; worn=277/277

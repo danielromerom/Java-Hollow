@@ -1,0 +1,8 @@
+XR Editor measurement; short sample, no standalone or experiment acceptance claim.
+Device=Head Tracking - OpenXR; quality=VR; graphics=NVIDIA GeForce RTX 2060; API=Direct3D12
+RefreshHz=72.00001
+URP=Quality URP Config; renderScale=1; MSAA=4
+Pass 0: 1824x1968, layers=2, samples=1
+Original: n=148; meanFrameMs=80.93; p95Ms=96.16; appGPUms=0.00; compositorGPUms=1099.17; CPUframeMs=80.87; presence=148/148; trianglesSnapshot=41310456; batchesSnapshot=3262
+
+ABORTED: Play Mode stopped.

@@ -1,0 +1,17 @@
+2026-10-14T16:10:18.1077237-04:00; active terrains=2; quality=VR; API=Direct3D11
+Temporary layer isolation, not a proposed visual change. Keep the viewpoint fixed.
+Terrain TERRAIN: data=Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset; size=(10.00, 600.00, 10.00); heightResolution=513; detailResolution=1024; patch=32; trees=6; pixelError=50; foliage=True; detailDensity=1; material=Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat; shader=Universal Render Pipeline/Terrain/Lit; layers=3
+ Detail 0: storedDensitySum=0; prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX; instanced=False
+ Detail 1: storedDensitySum=480; prefab=Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX; instanced=True
+ Detail 2: storedDensitySum=0; prefab=; instanced=False
+ Detail 3: storedDensitySum=479901; prefab=Assets/PerformanceOptimizations/Floor/DirtDetailCaps.prefab; instanced=True
+Terrain Terrain_(0.00, 0.00, 10.00): data=Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_30530da2-949b-4ba6-9e8a-63f464d6f89b.asset; size=(10.00, 600.00, 10.00); heightResolution=513; detailResolution=1024; patch=32; trees=19; pixelError=50; foliage=True; detailDensity=1; material=Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat; shader=Universal Render Pipeline/Terrain/Lit; layers=1
+ Detail 0: storedDensitySum=0; prefab=; instanced=False
+ Detail 1: storedDensitySum=6; prefab=Assets/PerformanceOptimizations/Floor/DirtDetailCaps.prefab; instanced=True
+Original: samples=486; meanMs=10.29; fps=97.19; triangles=6844230; batches=1090; XR=False; worn=0/486
+Surface only: samples=726; meanMs=6.88; fps=145.29; triangles=5253; batches=8; XR=False; worn=0/726
+Surface and details: samples=433; meanMs=11.58; fps=86.36; triangles=6590693; batches=1013; XR=False; worn=0/433
+Surface and trees: samples=773; meanMs=6.46; fps=154.70; triangles=258782; batches=85; XR=False; worn=0/773
+Original restored: samples=403; meanMs=12.44; fps=80.38; triangles=6844222; batches=1090; XR=False; worn=0/403
+
+COMPLETE; original settings restored

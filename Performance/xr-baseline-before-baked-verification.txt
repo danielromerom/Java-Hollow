@@ -1,0 +1,8 @@
+XR Editor measurement; short sample, no standalone or experiment acceptance claim.
+Device=Head Tracking - OpenXR; quality=VR; graphics=NVIDIA GeForce RTX 2060; API=Direct3D12
+RefreshHz=72.00001
+URP=Quality URP Config; renderScale=1; MSAA=4
+Pass 0: 1824x1968, layers=2, samples=1
+Original: n=120; meanFrameMs=99.39; p95Ms=117.03; appGPUms=-1000000.00; compositorGPUms=1045.50; CPUframeMs=99.18; presence=120/120; trianglesSnapshot=41295650; batchesSnapshot=3535
+
+COMPLETE; original pipeline restored.

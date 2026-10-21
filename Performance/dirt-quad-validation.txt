@@ -1,0 +1,2 @@
+Candidate: 20 -> 2 triangles, 42 -> 4 stored vertices; original bounds, texture, lighting and transform preserved.
+Polygon edge uses analytical fragment clipping. UV affine fit error < 0.00002. MSAA edge appearance requires comparison.

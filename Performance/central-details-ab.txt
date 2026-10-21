@@ -1,0 +1,4 @@
+Editor Play Mode diagnostic; fixed camera; details temporarily hidden, then restored. Not an HMD benchmark.
+Original details: samples=189, meanMs=26.45, p95Ms=28.71, trianglesMean=28168125, batchesMean=2950
+Central details hidden: samples=287, meanMs=17.41, p95Ms=19.34, trianglesMean=2423459, batchesMean=1935
+Original details: samples=180, meanMs=27.80, p95Ms=29.74, trianglesMean=28135052, batchesMean=2942

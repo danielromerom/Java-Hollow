@@ -1,0 +1,3 @@
+New Terrain.asset: same byte length (2862744), 24 changed bytes; offsets 9511..2319463.
+TerrainData_30530da2-949b-4ba6-9e8a-63f464d6f89b.asset: same byte length (1962196), 24 changed bytes; offsets 9445..1418447.
+Quad prefab GUID: ecc07f4860d6f7f4d872edee4c4b9cbc. Mesh: 4 vertices, 6 triangle indices.

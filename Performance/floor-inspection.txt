@@ -1,0 +1,6 @@
+Prefab scale=(0.60, 0.00, 0.60), mesh=Cylinder, vertices=88, bounds=Center: (0.00, 0.00, 0.00), Extents: (0.50, 1.00, 0.50)
+Triangles=80, submeshes=1
+Terrain=TERRAIN, data=Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset, layer=3, height=0..0.0001, width=0..0.04, mode=VertexLit, instancing=True, density=1
+Generated instances=479901; scaleY=4.65273042E-05..4.652731E-05
+Terrain=Terrain_(0.00, 0.00, 10.00), data=Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_30530da2-949b-4ba6-9e8a-63f464d6f89b.asset, layer=1, height=0..0.0001, width=0..0.04, mode=VertexLit, instancing=True, density=1
+Generated instances=6; scaleY=4.65273079E-05..4.65273079E-05
