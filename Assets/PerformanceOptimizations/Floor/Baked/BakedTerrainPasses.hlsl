@@ -498,7 +498,11 @@ void SplatmapFragment(
     half4 ground = SAMPLE_TEXTURE2D(_GroundBake, sampler_GroundBake, IN.uvMainAndLM.xy);
     InputData dirtInput = inputData;
     dirtInput.normalWS = half3(0,1,0); // The original dirt cap normals point up.
-    dirtInput.bakedGI = SampleSH(half3(0,1,0));
+    // Preserve the terrain lightmap when static asset lights have been baked.
+    // Without a lightmap, retain the original upward-facing ambient lighting.
+    #if !defined(LIGHTMAP_ON) && !defined(DYNAMICLIGHTMAP_ON)
+        dirtInput.bakedGI = SampleSH(half3(0,1,0));
+    #endif
     SurfaceData dirtSurface = (SurfaceData)0;
     dirtSurface.albedo = ground.rgb;
     dirtSurface.alpha = 1;

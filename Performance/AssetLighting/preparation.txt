@@ -1,0 +1,194 @@
+Baseline: Assets/PerformanceOptimizations/AssetLighting/BeforeBake.unity
+Original meshes and original lighting settings retained.
+BAKED IN SCENE ASSETS/CEILING CHAIN/ceiling chain/Latern3 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/CEILING CHAIN/ceiling chain (1)/Latern3 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/CEILING CHAIN/ceiling chain (2)/Latern3 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/CEILING CHAIN/ceiling chain (3)/Latern3 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/CEILING CHAIN/ceiling chain (4)/Latern3 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/CEILING CHAIN/ceiling chain (5)/Latern3 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/CEILING CHAIN/ceiling chain (6)/Latern3 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/TABLES/table/BoothsChairsTables_SM_Chair_6 (18)/Lantern1 (3)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (5)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_brown_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_round_beige_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01 (1)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01 (1)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_round_beige_01 (1)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01 (2)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_simple_red_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01 (2)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_spiral_brown_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_green_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_pink_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_simple_red_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_green_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_spiral_brown_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_spiral_brown_01/Lantern1 (3)/red_flame_0/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_01 (1)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_round_beige_01/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/mushroom_bell_green_01 (1)/Point Light
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (4)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_01/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (1)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (2)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (3)
+BAKED IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (4)
+Static receivers=578; skipped movable/scripted renderers=38; UV mesh copies=103; baked point lights=190; probes=4048
+Old experimental floor substitution disabled: bake and runtime now use the same current terrain data and material.

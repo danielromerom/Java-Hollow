@@ -1,0 +1,4 @@
+Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset|Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline0.asset
+Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_30530da2-949b-4ba6-9e8a-63f464d6f89b.asset|Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline1.asset
+Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_686a26c5-4f85-4c7d-ab62-4f02301edfda.asset|Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline2.asset
+Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_eb4bc66b-462c-4323-bc53-b88dc7742978.asset|Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline3.asset

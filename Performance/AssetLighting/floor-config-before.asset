@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb04bb28fc482d45a1180fab6c9426a, type: 3}
+  m_Name: JavaHollowBakedFloor
+  m_EditorClassIdentifier: Assembly-CSharp::JavaHollowBakedFloor
+  useBakedFloor: 1
+  tiles:
+  - source: {fileID: 15600000, guid: 02bc0e2176f6a4e4ea3faf0c622664cf, type: 2}
+    baked: {fileID: 15600000, guid: 76d775df463947a47a6e39f3d56a2e4e, type: 2}
+    material: {fileID: 2100000, guid: c981ecef517913842bff8409d229cb28, type: 2}

@@ -1,0 +1,323 @@
+DATA Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset; trees=6; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=1
+ PROTOTYPE 1: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ PROTOTYPE 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=1
+ PROTOTYPE 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=2
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=2
+ PROTOTYPE 5: Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 1.prefab; count=0
+ PROTOTYPE 6: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx; count=0
+ TREE 0: prototype=0; pos=(0.54336, 0.00082, 0.52193); scale=0.5857522,0.5857522; rotation=1.387574
+ TREE 1: prototype=4; pos=(0.13698, 0.00000, 0.96373); scale=0.9939216,0.9939216; rotation=0.4696318
+ TREE 2: prototype=3; pos=(0.78428, 0.00034, 0.57606); scale=0.9652823,1.646618; rotation=4.193147
+ TREE 3: prototype=2; pos=(0.36470, 0.00006, 0.79490); scale=0.9418144,1.181204; rotation=4.266207
+ TREE 4: prototype=3; pos=(0.75154, 0.00000, 0.91495); scale=0.9307103,1.111234; rotation=5.118394
+ TREE 5: prototype=4; pos=(0.02646, 0.00000, 0.45171); scale=0.9378012,1.15874; rotation=3.938305
+DATA Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline0.asset; trees=6; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=1
+ PROTOTYPE 1: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ PROTOTYPE 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=1
+ PROTOTYPE 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=2
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=2
+ PROTOTYPE 5: ; count=0
+ PROTOTYPE 6: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx; count=0
+ TREE 0: prototype=0; pos=(0.54336, 0.00082, 0.52193); scale=0.5857522,0.5857522; rotation=1.387574
+ TREE 1: prototype=4; pos=(0.13698, 0.00000, 0.96373); scale=0.9939216,0.9939216; rotation=0.4696318
+ TREE 2: prototype=3; pos=(0.78428, 0.00034, 0.57606); scale=0.9652823,1.646618; rotation=4.193147
+ TREE 3: prototype=2; pos=(0.36470, 0.00006, 0.79490); scale=0.9418144,1.181204; rotation=4.266207
+ TREE 4: prototype=3; pos=(0.75154, 0.00000, 0.91495); scale=0.9307103,1.111234; rotation=5.118394
+ TREE 5: prototype=4; pos=(0.02646, 0.00000, 0.45171); scale=0.9378012,1.15874; rotation=3.938305
+DATA Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_30530da2-949b-4ba6-9e8a-63f464d6f89b.asset; trees=19; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=0
+ PROTOTYPE 1: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx; count=0
+ PROTOTYPE 2: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ PROTOTYPE 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=4
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=2
+ PROTOTYPE 5: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=0
+ PROTOTYPE 6: ; count=13
+ TREE 0: prototype=4; pos=(0.15030, 0.00000, 0.83807); scale=0.7399917,0.7399917; rotation=3.647087
+ TREE 1: prototype=4; pos=(0.24141, 0.00000, 0.86231); scale=0.7663968,0.7663968; rotation=2.684494
+ TREE 2: prototype=6; pos=(0.21867, 0.00000, 0.70989); scale=1.040175,1.040175; rotation=2.8392
+ TREE 3: prototype=6; pos=(0.22392, 0.00000, 0.68000); scale=0.8576174,0.8576174; rotation=4.959436
+ TREE 4: prototype=6; pos=(0.21307, 0.00000, 0.62133); scale=0.6842037,0.6842037; rotation=2.937486
+ TREE 5: prototype=6; pos=(0.15522, 0.00000, 0.77502); scale=0.6988096,0.6988096; rotation=3.686585
+ TREE 6: prototype=6; pos=(0.13504, 0.00009, 0.72618); scale=0.7522719,0.7522719; rotation=1.059733
+ TREE 7: prototype=6; pos=(0.74688, 0.00000, 0.88913); scale=0.9910897,0.9910897; rotation=4.601975
+ TREE 8: prototype=6; pos=(0.83770, 0.00091, 0.82595); scale=0.7016296,0.7016296; rotation=1.46777
+ TREE 9: prototype=6; pos=(0.89732, 0.00157, 0.84384); scale=0.7102457,0.7102457; rotation=5.590855
+ TREE 10: prototype=6; pos=(0.90970, 0.00040, 0.52476); scale=0.7819193,0.7819193; rotation=2.795907
+ TREE 11: prototype=3; pos=(0.88881, 0.00000, 0.63189); scale=1.375845,1.375845; rotation=2.717488
+ TREE 12: prototype=6; pos=(0.93779, 0.00021, 0.56637); scale=0.6765653,0.6765653; rotation=5.997498
+ TREE 13: prototype=6; pos=(0.98103, 0.00079, 0.45604); scale=0.9520407,0.9520407; rotation=4.210646
+ TREE 14: prototype=3; pos=(0.96564, 0.00000, 0.14450); scale=1.075536,1.075536; rotation=0.4365689
+ TREE 15: prototype=6; pos=(0.12391, 0.00000, 0.21727); scale=0.8868944,0.8868944; rotation=4.715122
+ TREE 16: prototype=6; pos=(0.12663, 0.00000, 0.46004); scale=1.029601,1.029601; rotation=5.227009
+ TREE 17: prototype=3; pos=(0.75182, 0.00000, 0.62072); scale=0.8811172,0.8811172; rotation=0.5610318
+ TREE 18: prototype=3; pos=(0.32054, 0.00000, 0.59321); scale=1.299056,1.299056; rotation=0.8463799
+DATA Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline1.asset; trees=19; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=0
+ PROTOTYPE 1: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx; count=0
+ PROTOTYPE 2: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ PROTOTYPE 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=4
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=2
+ PROTOTYPE 5: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=0
+ PROTOTYPE 6: ; count=13
+ TREE 0: prototype=4; pos=(0.15030, 0.00000, 0.83807); scale=0.7399917,0.7399917; rotation=3.647087
+ TREE 1: prototype=4; pos=(0.24141, 0.00000, 0.86231); scale=0.7663968,0.7663968; rotation=2.684494
+ TREE 2: prototype=6; pos=(0.21867, 0.00000, 0.70989); scale=1.040175,1.040175; rotation=2.8392
+ TREE 3: prototype=6; pos=(0.22392, 0.00000, 0.68000); scale=0.8576174,0.8576174; rotation=4.959436
+ TREE 4: prototype=6; pos=(0.21307, 0.00000, 0.62133); scale=0.6842037,0.6842037; rotation=2.937486
+ TREE 5: prototype=6; pos=(0.15522, 0.00000, 0.77502); scale=0.6988096,0.6988096; rotation=3.686585
+ TREE 6: prototype=6; pos=(0.13504, 0.00009, 0.72618); scale=0.7522719,0.7522719; rotation=1.059733
+ TREE 7: prototype=6; pos=(0.74688, 0.00000, 0.88913); scale=0.9910897,0.9910897; rotation=4.601975
+ TREE 8: prototype=6; pos=(0.83770, 0.00091, 0.82595); scale=0.7016296,0.7016296; rotation=1.46777
+ TREE 9: prototype=6; pos=(0.89732, 0.00157, 0.84384); scale=0.7102457,0.7102457; rotation=5.590855
+ TREE 10: prototype=6; pos=(0.90970, 0.00040, 0.52476); scale=0.7819193,0.7819193; rotation=2.795907
+ TREE 11: prototype=3; pos=(0.88881, 0.00000, 0.63189); scale=1.375845,1.375845; rotation=2.717488
+ TREE 12: prototype=6; pos=(0.93779, 0.00021, 0.56637); scale=0.6765653,0.6765653; rotation=5.997498
+ TREE 13: prototype=6; pos=(0.98103, 0.00079, 0.45604); scale=0.9520407,0.9520407; rotation=4.210646
+ TREE 14: prototype=3; pos=(0.96564, 0.00000, 0.14450); scale=1.075536,1.075536; rotation=0.4365689
+ TREE 15: prototype=6; pos=(0.12391, 0.00000, 0.21727); scale=0.8868944,0.8868944; rotation=4.715122
+ TREE 16: prototype=6; pos=(0.12663, 0.00000, 0.46004); scale=1.029601,1.029601; rotation=5.227009
+ TREE 17: prototype=3; pos=(0.75182, 0.00000, 0.62072); scale=0.8811172,0.8811172; rotation=0.5610318
+ TREE 18: prototype=3; pos=(0.32054, 0.00000, 0.59321); scale=1.299056,1.299056; rotation=0.8463799
+DATA Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_686a26c5-4f85-4c7d-ab62-4f02301edfda.asset; trees=30; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=2
+ PROTOTYPE 1: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=7
+ PROTOTYPE 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=2
+ PROTOTYPE 3: ; count=9
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=10
+ PROTOTYPE 5: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ PROTOTYPE 6: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx; count=0
+ TREE 0: prototype=1; pos=(0.50472, 0.00564, 0.58704); scale=1.06265,1.06265; rotation=1.785756
+ TREE 1: prototype=1; pos=(0.44806, 0.00374, 0.51374); scale=0.8660747,0.8660747; rotation=5.375854
+ TREE 2: prototype=2; pos=(0.77661, 0.00091, 0.78178); scale=0.8501287,0.8501287; rotation=4.082376
+ TREE 3: prototype=2; pos=(0.74299, 0.00153, 0.73231); scale=0.9215376,0.9215376; rotation=2.201496
+ TREE 4: prototype=3; pos=(0.75765, 0.00061, 0.38686); scale=0.7019064,0.7019064; rotation=2.619545
+ TREE 5: prototype=3; pos=(0.72307, 0.00061, 0.40026); scale=0.990561,0.990561; rotation=4.291685
+ TREE 6: prototype=3; pos=(0.69864, 0.00104, 0.45501); scale=1.062357,1.062357; rotation=2.977522
+ TREE 7: prototype=3; pos=(0.69990, 0.00037, 0.37556); scale=0.7534007,0.7534007; rotation=5.669609
+ TREE 8: prototype=3; pos=(0.19961, 0.02186, 0.81740); scale=1.112307,1.112307; rotation=1.272841
+ TREE 9: prototype=3; pos=(0.21574, 0.01460, 0.92992); scale=1.093681,1.093681; rotation=6.042422
+ TREE 10: prototype=3; pos=(0.24503, 0.01132, 0.90444); scale=1.045714,1.045714; rotation=2.889749
+ TREE 11: prototype=3; pos=(0.14164, 0.01569, 0.93222); scale=1.100004,1.100004; rotation=1.428428
+ TREE 12: prototype=3; pos=(0.03153, 0.02327, 0.86867); scale=1.041936,1.041936; rotation=0.5964758
+ TREE 13: prototype=0; pos=(0.11881, 0.02429, 0.81014); scale=0.3326978,0.3326978; rotation=5.045992
+ TREE 14: prototype=1; pos=(0.25380, 0.00838, 0.02014); scale=0.7841631,0.7841631; rotation=1.973433
+ TREE 15: prototype=1; pos=(0.27058, 0.00811, 0.11434); scale=0.843632,0.843632; rotation=5.271584
+ TREE 16: prototype=1; pos=(0.81174, 0.01154, 0.89675); scale=0.8494636,0.8494636; rotation=0.9299676
+ TREE 17: prototype=1; pos=(0.69755, 0.01805, 0.88675); scale=0.803579,0.803579; rotation=3.096015
+ TREE 18: prototype=4; pos=(0.93436, 0.00045, 0.47874); scale=1.415574,1.415574; rotation=5.99832
+ TREE 19: prototype=1; pos=(0.35850, 0.00328, 0.16510); scale=1.404793,1.404793; rotation=5.638788
+ TREE 20: prototype=0; pos=(0.22921, 0.01155, 0.61513); scale=1.700874,1.700874; rotation=5.105555
+ TREE 21: prototype=4; pos=(0.41643, 0.00109, 0.28261); scale=0.9222592,0.9222592; rotation=2.425026
+ TREE 22: prototype=4; pos=(0.30009, 0.00374, 0.00176); scale=1.062581,1.062581; rotation=4.3397
+ TREE 23: prototype=4; pos=(0.33084, 0.00415, 0.41422); scale=1.036502,1.036502; rotation=2.152557
+ TREE 24: prototype=4; pos=(0.17383, 0.01565, 0.64223); scale=1.021818,1.021818; rotation=3.519588
+ TREE 25: prototype=4; pos=(0.83587, 0.00137, 0.43134); scale=1.077369,1.077369; rotation=6.061915
+ TREE 26: prototype=4; pos=(0.94619, 0.00000, 0.21489); scale=0.9319826,0.9319826; rotation=4.587872
+ TREE 27: prototype=4; pos=(0.91919, 0.00074, 0.53865); scale=1.098566,1.098566; rotation=3.765081
+ TREE 28: prototype=4; pos=(0.84485, 0.00118, 0.73572); scale=1.068437,1.068437; rotation=0.5038543
+ TREE 29: prototype=4; pos=(0.62019, 0.00085, 0.16408); scale=0.9445719,0.9445719; rotation=5.271144
+DATA Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline2.asset; trees=30; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=2
+ PROTOTYPE 1: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=7
+ PROTOTYPE 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=2
+ PROTOTYPE 3: ; count=9
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=10
+ PROTOTYPE 5: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ PROTOTYPE 6: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_4.fbx; count=0
+ TREE 0: prototype=1; pos=(0.50472, 0.00564, 0.58704); scale=1.06265,1.06265; rotation=1.785756
+ TREE 1: prototype=1; pos=(0.44806, 0.00374, 0.51374); scale=0.8660747,0.8660747; rotation=5.375854
+ TREE 2: prototype=2; pos=(0.77661, 0.00091, 0.78178); scale=0.8501287,0.8501287; rotation=4.082376
+ TREE 3: prototype=2; pos=(0.74299, 0.00153, 0.73231); scale=0.9215376,0.9215376; rotation=2.201496
+ TREE 4: prototype=3; pos=(0.75765, 0.00061, 0.38686); scale=0.7019064,0.7019064; rotation=2.619545
+ TREE 5: prototype=3; pos=(0.72307, 0.00061, 0.40026); scale=0.990561,0.990561; rotation=4.291685
+ TREE 6: prototype=3; pos=(0.69864, 0.00104, 0.45501); scale=1.062357,1.062357; rotation=2.977522
+ TREE 7: prototype=3; pos=(0.69990, 0.00037, 0.37556); scale=0.7534007,0.7534007; rotation=5.669609
+ TREE 8: prototype=3; pos=(0.19961, 0.02186, 0.81740); scale=1.112307,1.112307; rotation=1.272841
+ TREE 9: prototype=3; pos=(0.21574, 0.01460, 0.92992); scale=1.093681,1.093681; rotation=6.042422
+ TREE 10: prototype=3; pos=(0.24503, 0.01132, 0.90444); scale=1.045714,1.045714; rotation=2.889749
+ TREE 11: prototype=3; pos=(0.14164, 0.01569, 0.93222); scale=1.100004,1.100004; rotation=1.428428
+ TREE 12: prototype=3; pos=(0.03153, 0.02327, 0.86867); scale=1.041936,1.041936; rotation=0.5964758
+ TREE 13: prototype=0; pos=(0.11881, 0.02429, 0.81014); scale=0.3326978,0.3326978; rotation=5.045992
+ TREE 14: prototype=1; pos=(0.25380, 0.00838, 0.02014); scale=0.7841631,0.7841631; rotation=1.973433
+ TREE 15: prototype=1; pos=(0.27058, 0.00811, 0.11434); scale=0.843632,0.843632; rotation=5.271584
+ TREE 16: prototype=1; pos=(0.81174, 0.01154, 0.89675); scale=0.8494636,0.8494636; rotation=0.9299676
+ TREE 17: prototype=1; pos=(0.69755, 0.01805, 0.88675); scale=0.803579,0.803579; rotation=3.096015
+ TREE 18: prototype=4; pos=(0.93436, 0.00045, 0.47874); scale=1.415574,1.415574; rotation=5.99832
+ TREE 19: prototype=1; pos=(0.35850, 0.00328, 0.16510); scale=1.404793,1.404793; rotation=5.638788
+ TREE 20: prototype=0; pos=(0.22921, 0.01155, 0.61513); scale=1.700874,1.700874; rotation=5.105555
+ TREE 21: prototype=4; pos=(0.41643, 0.00109, 0.28261); scale=0.9222592,0.9222592; rotation=2.425026
+ TREE 22: prototype=4; pos=(0.30009, 0.00374, 0.00176); scale=1.062581,1.062581; rotation=4.3397
+ TREE 23: prototype=4; pos=(0.33084, 0.00415, 0.41422); scale=1.036502,1.036502; rotation=2.152557
+ TREE 24: prototype=4; pos=(0.17383, 0.01565, 0.64223); scale=1.021818,1.021818; rotation=3.519588
+ TREE 25: prototype=4; pos=(0.83587, 0.00137, 0.43134); scale=1.077369,1.077369; rotation=6.061915
+ TREE 26: prototype=4; pos=(0.94619, 0.00000, 0.21489); scale=0.9319826,0.9319826; rotation=4.587872
+ TREE 27: prototype=4; pos=(0.91919, 0.00074, 0.53865); scale=1.098566,1.098566; rotation=3.765081
+ TREE 28: prototype=4; pos=(0.84485, 0.00118, 0.73572); scale=1.068437,1.068437; rotation=0.5038543
+ TREE 29: prototype=4; pos=(0.62019, 0.00085, 0.16408); scale=0.9445719,0.9445719; rotation=5.271144
+DATA Assets/Fantasy Forest Environment Free Sample/Scenes/TerrainData_eb4bc66b-462c-4323-bc53-b88dc7742978.asset; trees=66; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=11
+ PROTOTYPE 1: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=4
+ PROTOTYPE 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=15
+ PROTOTYPE 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_4.prefab; count=8
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=7
+ PROTOTYPE 5: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_1.prefab; count=7
+ PROTOTYPE 6: ; count=14
+ PROTOTYPE 7: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ TREE 0: prototype=6; pos=(0.71858, 0.00015, 0.01726); scale=0.3048147,0.3048147; rotation=3.423243
+ TREE 1: prototype=4; pos=(0.21250, 0.00034, 0.64958); scale=0.3048147,0.3048147; rotation=3.658712
+ TREE 2: prototype=6; pos=(0.12385, 0.00007, 0.92915); scale=0.3048147,0.3048147; rotation=4.576862
+ TREE 3: prototype=1; pos=(0.97418, 0.00860, 0.46334); scale=0.3048147,0.3048147; rotation=6.007087
+ TREE 4: prototype=5; pos=(0.82526, 0.01063, 0.76657); scale=0.3048147,0.3048147; rotation=1.305565
+ TREE 5: prototype=5; pos=(0.68494, 0.00117, 0.29992); scale=0.3048147,0.3048147; rotation=3.359351
+ TREE 6: prototype=3; pos=(0.15043, 0.00016, 0.57254); scale=0.3048147,0.3048147; rotation=0.2799388
+ TREE 7: prototype=2; pos=(0.80865, 0.01098, 0.77451); scale=0.3048147,0.3048147; rotation=5.582297
+ TREE 8: prototype=0; pos=(0.27909, 0.00034, 0.31621); scale=0.3048147,0.3048147; rotation=3.68764
+ TREE 9: prototype=0; pos=(0.71107, 0.00856, 0.85096); scale=0.3048147,0.3048147; rotation=2.326746
+ TREE 10: prototype=5; pos=(0.22811, 0.00025, 0.64045); scale=0.3048147,0.3048147; rotation=3.636524
+ TREE 11: prototype=0; pos=(0.16422, 0.00018, 0.42012); scale=0.3048147,0.3048147; rotation=2.147556
+ TREE 12: prototype=0; pos=(0.63839, 0.00430, 0.95380); scale=0.3048147,0.3048147; rotation=4.183152
+ TREE 13: prototype=5; pos=(0.89856, 0.00707, 0.92374); scale=0.3048147,0.3048147; rotation=5.703718
+ TREE 14: prototype=0; pos=(0.85397, 0.00872, 0.97278); scale=0.3048147,0.3048147; rotation=3.255528
+ TREE 15: prototype=1; pos=(0.15054, 0.00076, 0.77182); scale=0.3048147,0.3048147; rotation=3.120445
+ TREE 16: prototype=6; pos=(0.20336, 0.00003, 0.54836); scale=0.3048147,0.3048147; rotation=3.350254
+ TREE 17: prototype=2; pos=(0.87546, 0.00724, 0.89830); scale=0.3048147,0.3048147; rotation=2.838639
+ TREE 18: prototype=4; pos=(0.06974, 0.00021, 0.33160); scale=0.3048147,0.3048147; rotation=0.8408567
+ TREE 19: prototype=5; pos=(0.00778, 0.00131, 0.79820); scale=0.3048147,0.3048147; rotation=4.396292
+ TREE 20: prototype=4; pos=(0.12462, 0.00055, 0.32362); scale=0.3048147,0.3048147; rotation=0.6837046
+ TREE 21: prototype=6; pos=(0.14909, 0.00076, 0.70060); scale=0.3048147,0.3048147; rotation=1.728379
+ TREE 22: prototype=4; pos=(0.74303, 0.00075, 0.41078); scale=0.3048147,0.3048147; rotation=3.297827
+ TREE 23: prototype=2; pos=(0.22324, 0.00056, 0.92484); scale=0.3048147,0.3048147; rotation=3.145314
+ TREE 24: prototype=3; pos=(0.50754, 0.00037, 0.73645); scale=0.3048147,0.3048147; rotation=0.9916954
+ TREE 25: prototype=5; pos=(0.85480, 0.00793, 0.92451); scale=0.3048147,0.3048147; rotation=5.237258
+ TREE 26: prototype=2; pos=(0.26815, 0.00024, 0.68166); scale=0.3048147,0.3048147; rotation=5.582934
+ TREE 27: prototype=2; pos=(0.42013, 0.00055, 0.80956); scale=0.3048147,0.3048147; rotation=5.634831
+ TREE 28: prototype=2; pos=(0.97368, 0.00679, 0.02290); scale=0.3048147,0.3048147; rotation=3.217606
+ TREE 29: prototype=3; pos=(0.95869, 0.01113, 0.61214); scale=0.3048147,0.3048147; rotation=1.997807
+ TREE 30: prototype=6; pos=(0.74892, 0.00049, 0.10272); scale=0.3048147,0.3048147; rotation=1.26089
+ TREE 31: prototype=3; pos=(0.88214, 0.00092, 0.19023); scale=0.3048147,0.3048147; rotation=0.504052
+ TREE 32: prototype=0; pos=(0.97747, 0.01216, 0.66910); scale=0.3048147,0.3048147; rotation=5.32234
+ TREE 33: prototype=3; pos=(0.92828, 0.01016, 0.69677); scale=0.3048147,0.3048147; rotation=2.534209
+ TREE 34: prototype=4; pos=(0.09090, 0.00051, 0.44268); scale=0.3048147,0.3048147; rotation=3.073151
+ TREE 35: prototype=2; pos=(0.40586, 0.00110, 0.90829); scale=0.3048147,0.3048147; rotation=2.003203
+ TREE 36: prototype=3; pos=(0.27661, 0.00018, 0.41177); scale=0.3048147,0.3048147; rotation=1.707308
+ TREE 37: prototype=1; pos=(0.56828, 0.00204, 0.54701); scale=0.3048147,0.3048147; rotation=1.462221
+ TREE 38: prototype=5; pos=(0.10532, 0.00049, 0.42752); scale=0.3048147,0.3048147; rotation=1.748839
+ TREE 39: prototype=6; pos=(0.98153, 0.00829, 0.76076); scale=0.3048147,0.3048147; rotation=0.2895719
+ TREE 40: prototype=3; pos=(0.73278, 0.00070, 0.38395); scale=0.3048147,0.3048147; rotation=5.477177
+ TREE 41: prototype=4; pos=(0.63614, 0.00119, 0.25530); scale=0.3048147,0.3048147; rotation=2.505891
+ TREE 42: prototype=4; pos=(0.20659, 0.00036, 0.91767); scale=0.3048147,0.3048147; rotation=3.639731
+ TREE 43: prototype=6; pos=(0.46563, 0.00022, 0.78277); scale=0.3048147,0.3048147; rotation=2.402469
+ TREE 44: prototype=2; pos=(0.88960, 0.00089, 0.19659); scale=0.3048147,0.3048147; rotation=4.447529
+ TREE 45: prototype=0; pos=(0.87823, 0.00110, 0.27831); scale=0.3048147,0.3048147; rotation=4.558771
+ TREE 46: prototype=3; pos=(0.06635, 0.00034, 0.46171); scale=0.3048147,0.3048147; rotation=6.204542
+ TREE 47: prototype=2; pos=(0.05684, 0.00110, 0.74600); scale=0.3048147,0.3048147; rotation=5.891438
+ TREE 48: prototype=0; pos=(0.03544, 0.00082, 0.68979); scale=0.3048147,0.3048147; rotation=4.921342
+ TREE 49: prototype=0; pos=(0.24026, 0.00046, 0.84930); scale=0.3048147,0.3048147; rotation=4.327949
+ TREE 50: prototype=0; pos=(0.53761, 0.00067, 0.79724); scale=0.3048147,0.3048147; rotation=3.559553
+ TREE 51: prototype=2; pos=(0.24540, 0.00012, 0.58789); scale=0.8135242,0.8135242; rotation=1.048123
+ TREE 52: prototype=1; pos=(0.88885, 0.00536, 0.49468); scale=0.8118054,0.8118054; rotation=0.577958
+ TREE 53: prototype=2; pos=(0.89444, 0.00470, 0.03057); scale=1.40924,1.40924; rotation=5.842271
+ TREE 54: prototype=2; pos=(0.89914, 0.00452, 0.11408); scale=1.381453,1.381453; rotation=0.6673408
+ TREE 55: prototype=2; pos=(0.65386, 0.00292, 0.60405); scale=1.429029,1.429029; rotation=4.549595
+ TREE 56: prototype=2; pos=(0.85362, 0.00366, 0.40506); scale=1.409345,1.409345; rotation=0.906149
+ TREE 57: prototype=2; pos=(0.35382, 0.00052, 0.67147); scale=1.406221,1.406221; rotation=2.741874
+ TREE 58: prototype=0; pos=(0.52211, 0.00031, 0.34207); scale=0.8088206,0.8088206; rotation=3.848048
+ TREE 59: prototype=6; pos=(0.50971, 0.00124, 0.07346); scale=0.5037913,0.5037913; rotation=2.137648
+ TREE 60: prototype=6; pos=(0.48150, 0.00079, 0.19222); scale=0.4073257,0.4073257; rotation=5.230572
+ TREE 61: prototype=6; pos=(0.60779, 0.00085, 0.04502); scale=0.5008264,0.5008264; rotation=2.196065
+ TREE 62: prototype=6; pos=(0.41181, 0.00072, 0.05553); scale=0.7957441,0.7957441; rotation=3.756203
+ TREE 63: prototype=6; pos=(0.06195, 0.00016, 0.55116); scale=0.7058499,0.7058499; rotation=4.097932
+ TREE 64: prototype=6; pos=(0.12692, 0.00049, 0.62891); scale=0.9345911,0.9345911; rotation=3.784297
+ TREE 65: prototype=6; pos=(0.15264, 0.00005, 0.49463); scale=0.801393,0.801393; rotation=0.9842157
+DATA Assets/PerformanceOptimizations/TerrainRegressionCheck/Baseline3.asset; trees=66; size=(10.00, 600.00, 10.00); heightRes=513; detailRes=1024
+ PROTOTYPE 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab; count=11
+ PROTOTYPE 1: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab; count=4
+ PROTOTYPE 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab; count=15
+ PROTOTYPE 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_4.prefab; count=8
+ PROTOTYPE 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab; count=7
+ PROTOTYPE 5: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Spruce_1.prefab; count=7
+ PROTOTYPE 6: ; count=14
+ PROTOTYPE 7: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 7.prefab; count=0
+ TREE 0: prototype=6; pos=(0.71858, 0.00015, 0.01726); scale=0.3048147,0.3048147; rotation=3.423243
+ TREE 1: prototype=4; pos=(0.21250, 0.00034, 0.64958); scale=0.3048147,0.3048147; rotation=3.658712
+ TREE 2: prototype=6; pos=(0.12385, 0.00007, 0.92915); scale=0.3048147,0.3048147; rotation=4.576862
+ TREE 3: prototype=1; pos=(0.97418, 0.00860, 0.46334); scale=0.3048147,0.3048147; rotation=6.007087
+ TREE 4: prototype=5; pos=(0.82526, 0.01063, 0.76657); scale=0.3048147,0.3048147; rotation=1.305565
+ TREE 5: prototype=5; pos=(0.68494, 0.00117, 0.29992); scale=0.3048147,0.3048147; rotation=3.359351
+ TREE 6: prototype=3; pos=(0.15043, 0.00016, 0.57254); scale=0.3048147,0.3048147; rotation=0.2799388
+ TREE 7: prototype=2; pos=(0.80865, 0.01098, 0.77451); scale=0.3048147,0.3048147; rotation=5.582297
+ TREE 8: prototype=0; pos=(0.27909, 0.00034, 0.31621); scale=0.3048147,0.3048147; rotation=3.68764
+ TREE 9: prototype=0; pos=(0.71107, 0.00856, 0.85096); scale=0.3048147,0.3048147; rotation=2.326746
+ TREE 10: prototype=5; pos=(0.22811, 0.00025, 0.64045); scale=0.3048147,0.3048147; rotation=3.636524
+ TREE 11: prototype=0; pos=(0.16422, 0.00018, 0.42012); scale=0.3048147,0.3048147; rotation=2.147556
+ TREE 12: prototype=0; pos=(0.63839, 0.00430, 0.95380); scale=0.3048147,0.3048147; rotation=4.183152
+ TREE 13: prototype=5; pos=(0.89856, 0.00707, 0.92374); scale=0.3048147,0.3048147; rotation=5.703718
+ TREE 14: prototype=0; pos=(0.85397, 0.00872, 0.97278); scale=0.3048147,0.3048147; rotation=3.255528
+ TREE 15: prototype=1; pos=(0.15054, 0.00076, 0.77182); scale=0.3048147,0.3048147; rotation=3.120445
+ TREE 16: prototype=6; pos=(0.20336, 0.00003, 0.54836); scale=0.3048147,0.3048147; rotation=3.350254
+ TREE 17: prototype=2; pos=(0.87546, 0.00724, 0.89830); scale=0.3048147,0.3048147; rotation=2.838639
+ TREE 18: prototype=4; pos=(0.06974, 0.00021, 0.33160); scale=0.3048147,0.3048147; rotation=0.8408567
+ TREE 19: prototype=5; pos=(0.00778, 0.00131, 0.79820); scale=0.3048147,0.3048147; rotation=4.396292
+ TREE 20: prototype=4; pos=(0.12462, 0.00055, 0.32362); scale=0.3048147,0.3048147; rotation=0.6837046
+ TREE 21: prototype=6; pos=(0.14909, 0.00076, 0.70060); scale=0.3048147,0.3048147; rotation=1.728379
+ TREE 22: prototype=4; pos=(0.74303, 0.00075, 0.41078); scale=0.3048147,0.3048147; rotation=3.297827
+ TREE 23: prototype=2; pos=(0.22324, 0.00056, 0.92484); scale=0.3048147,0.3048147; rotation=3.145314
+ TREE 24: prototype=3; pos=(0.50754, 0.00037, 0.73645); scale=0.3048147,0.3048147; rotation=0.9916954
+ TREE 25: prototype=5; pos=(0.85480, 0.00793, 0.92451); scale=0.3048147,0.3048147; rotation=5.237258
+ TREE 26: prototype=2; pos=(0.26815, 0.00024, 0.68166); scale=0.3048147,0.3048147; rotation=5.582934
+ TREE 27: prototype=2; pos=(0.42013, 0.00055, 0.80956); scale=0.3048147,0.3048147; rotation=5.634831
+ TREE 28: prototype=2; pos=(0.97368, 0.00679, 0.02290); scale=0.3048147,0.3048147; rotation=3.217606
+ TREE 29: prototype=3; pos=(0.95869, 0.01113, 0.61214); scale=0.3048147,0.3048147; rotation=1.997807
+ TREE 30: prototype=6; pos=(0.74892, 0.00049, 0.10272); scale=0.3048147,0.3048147; rotation=1.26089
+ TREE 31: prototype=3; pos=(0.88214, 0.00092, 0.19023); scale=0.3048147,0.3048147; rotation=0.504052
+ TREE 32: prototype=0; pos=(0.97747, 0.01216, 0.66910); scale=0.3048147,0.3048147; rotation=5.32234
+ TREE 33: prototype=3; pos=(0.92828, 0.01016, 0.69677); scale=0.3048147,0.3048147; rotation=2.534209
+ TREE 34: prototype=4; pos=(0.09090, 0.00051, 0.44268); scale=0.3048147,0.3048147; rotation=3.073151
+ TREE 35: prototype=2; pos=(0.40586, 0.00110, 0.90829); scale=0.3048147,0.3048147; rotation=2.003203
+ TREE 36: prototype=3; pos=(0.27661, 0.00018, 0.41177); scale=0.3048147,0.3048147; rotation=1.707308
+ TREE 37: prototype=1; pos=(0.56828, 0.00204, 0.54701); scale=0.3048147,0.3048147; rotation=1.462221
+ TREE 38: prototype=5; pos=(0.10532, 0.00049, 0.42752); scale=0.3048147,0.3048147; rotation=1.748839
+ TREE 39: prototype=6; pos=(0.98153, 0.00829, 0.76076); scale=0.3048147,0.3048147; rotation=0.2895719
+ TREE 40: prototype=3; pos=(0.73278, 0.00070, 0.38395); scale=0.3048147,0.3048147; rotation=5.477177
+ TREE 41: prototype=4; pos=(0.63614, 0.00119, 0.25530); scale=0.3048147,0.3048147; rotation=2.505891
+ TREE 42: prototype=4; pos=(0.20659, 0.00036, 0.91767); scale=0.3048147,0.3048147; rotation=3.639731
+ TREE 43: prototype=6; pos=(0.46563, 0.00022, 0.78277); scale=0.3048147,0.3048147; rotation=2.402469
+ TREE 44: prototype=2; pos=(0.88960, 0.00089, 0.19659); scale=0.3048147,0.3048147; rotation=4.447529
+ TREE 45: prototype=0; pos=(0.87823, 0.00110, 0.27831); scale=0.3048147,0.3048147; rotation=4.558771
+ TREE 46: prototype=3; pos=(0.06635, 0.00034, 0.46171); scale=0.3048147,0.3048147; rotation=6.204542
+ TREE 47: prototype=2; pos=(0.05684, 0.00110, 0.74600); scale=0.3048147,0.3048147; rotation=5.891438
+ TREE 48: prototype=0; pos=(0.03544, 0.00082, 0.68979); scale=0.3048147,0.3048147; rotation=4.921342
+ TREE 49: prototype=0; pos=(0.24026, 0.00046, 0.84930); scale=0.3048147,0.3048147; rotation=4.327949
+ TREE 50: prototype=0; pos=(0.53761, 0.00067, 0.79724); scale=0.3048147,0.3048147; rotation=3.559553
+ TREE 51: prototype=2; pos=(0.24540, 0.00012, 0.58789); scale=0.8135242,0.8135242; rotation=1.048123
+ TREE 52: prototype=1; pos=(0.88885, 0.00536, 0.49468); scale=0.8118054,0.8118054; rotation=0.577958
+ TREE 53: prototype=2; pos=(0.89444, 0.00470, 0.03057); scale=1.40924,1.40924; rotation=5.842271
+ TREE 54: prototype=2; pos=(0.89914, 0.00452, 0.11408); scale=1.381453,1.381453; rotation=0.6673408
+ TREE 55: prototype=2; pos=(0.65386, 0.00292, 0.60405); scale=1.429029,1.429029; rotation=4.549595
+ TREE 56: prototype=2; pos=(0.85362, 0.00366, 0.40506); scale=1.409345,1.409345; rotation=0.906149
+ TREE 57: prototype=2; pos=(0.35382, 0.00052, 0.67147); scale=1.406221,1.406221; rotation=2.741874
+ TREE 58: prototype=0; pos=(0.52211, 0.00031, 0.34207); scale=0.8088206,0.8088206; rotation=3.848048
+ TREE 59: prototype=6; pos=(0.50971, 0.00124, 0.07346); scale=0.5037913,0.5037913; rotation=2.137648
+ TREE 60: prototype=6; pos=(0.48150, 0.00079, 0.19222); scale=0.4073257,0.4073257; rotation=5.230572
+ TREE 61: prototype=6; pos=(0.60779, 0.00085, 0.04502); scale=0.5008264,0.5008264; rotation=2.196065
+ TREE 62: prototype=6; pos=(0.41181, 0.00072, 0.05553); scale=0.7957441,0.7957441; rotation=3.756203
+ TREE 63: prototype=6; pos=(0.06195, 0.00016, 0.55116); scale=0.7058499,0.7058499; rotation=4.097932
+ TREE 64: prototype=6; pos=(0.12692, 0.00049, 0.62891); scale=0.9345911,0.9345911; rotation=3.784297
+ TREE 65: prototype=6; pos=(0.15264, 0.00005, 0.49463); scale=0.801393,0.801393; rotation=0.9842157
+FLOOR TREE COMPARISON
+ Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset count=6
+ 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab pos=(0.54336, 0.00082, 0.52193)
+ 1: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab pos=(0.13698, 0.00000, 0.96373)
+ 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab pos=(0.78428, 0.00034, 0.57606)
+ 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab pos=(0.36470, 0.00006, 0.79490)
+ 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab pos=(0.75154, 0.00000, 0.91495)
+ 5: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab pos=(0.02646, 0.00000, 0.45171)
+ Assets/PerformanceOptimizations/Floor/Baked/Tile0.terrain.asset count=6
+ 0: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab pos=(0.54336, 0.00082, 0.52193)
+ 1: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab pos=(0.13698, 0.00000, 0.96373)
+ 2: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab pos=(0.78428, 0.00034, 0.57606)
+ 3: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Willow_7.prefab pos=(0.36470, 0.00006, 0.79490)
+ 4: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_1.prefab pos=(0.75154, 0.00000, 0.91495)
+ 5: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/Chestnut_7.prefab pos=(0.02646, 0.00000, 0.45171)

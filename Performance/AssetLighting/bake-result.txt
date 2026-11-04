@@ -1,0 +1,195 @@
+Bake completed: 2026-11-04T15:51:30.9486026-05:00; lightmaps=3; probes=4969
+Color=Assets/Terrain_Demo_For_Show/Lightmap-0_comp_light.exr; size=2048x2048
+Color=Assets/Terrain_Demo_For_Show/Lightmap-1_comp_light.exr; size=2048x2048
+Color=Assets/Terrain_Demo_For_Show/Lightmap-2_comp_light.exr; size=512x512
+Directional light: mode=Realtime; isBaked=False
+IN SCENE ASSETS/CEILING CHAIN/ceiling chain/Latern3 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/CEILING CHAIN/ceiling chain (1)/Latern3 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/CEILING CHAIN/ceiling chain (2)/Latern3 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/CEILING CHAIN/ceiling chain (3)/Latern3 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/CEILING CHAIN/ceiling chain (4)/Latern3 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/CEILING CHAIN/ceiling chain (5)/Latern3 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/CEILING CHAIN/ceiling chain (6)/Latern3 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/TABLES/table/BoothsChairsTables_SM_Chair_6 (18)/Lantern1 (3)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (5)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (4)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (2)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (3)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/LATERNS/Lantern1 (1)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (3)/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_brown_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02 (1)/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_round_beige_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (1)/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (2)/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01 (1)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01 (1)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_round_beige_01 (1)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01 (3)/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01 (2)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_simple_red_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01 (2)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_spiral_brown_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_green_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_pink_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_02/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_simple_red_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_green_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_simple_blue_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/blue_mushrooms_tall_group/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_pointy_blue_01/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_spiral_brown_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_spiral_brown_01/Lantern1 (3)/red_flame_0/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_wavy_green_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_pink_01 (1)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (1)/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_round_beige_01/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/mushroom_bell_green_01 (1)/Point Light: mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/red_mushrooms_tall_group (2)/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_01/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_02/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (1): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (2): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (3): mode=Baked; isBaked=True
+IN SCENE ASSETS/Mushroom Holder/green_mushrooms_tall_group/mushroom_tall_03/Point Light (4): mode=Baked; isBaked=True
